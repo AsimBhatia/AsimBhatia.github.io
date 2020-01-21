@@ -48,6 +48,30 @@ h1,h4 { font-weight: 700; margin-bottom: 10px; }
 h2 { font-size: 54px; text-align: center; }
 h3 { font-size: 28px; }
 
+.colorPrint {
+	color: transparent;
+	background-image: linear-gradient(to right , #f00,rgb(255, 123, 0),#ff0,#0f0,#0ff,#00f,rgb(204, 0, 255));
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	animation: animate 15s linear infinite;
+	background-size: 1000%;
+}
+@keyframes animate
+{
+	0%
+	{
+		background-position: 0% 100%;
+	}
+	50%
+	{
+		background-position: 100% 0%;
+	}
+	100%
+	{
+		background-position: 0% 100%;
+	}
+}
+
 p.lead { text-align: center; color: #727878; }
 p.lead a { color: #FFFFFF; text-decoration: underline; }
 p.lead a:hover { text-decoration: none; }
@@ -67,7 +91,7 @@ hr { margin: 40px 0px; border-color: #727878; opacity: 0.2; filter:alpha(opacity
 .icon.icon-email { background-position: 0px -96px; }
 
 .jumbotron {
-	background: no-repeat center right fixed url(images/background.gif);
+	background: no-repeat center right fixed url(https://www.thisiscolossal.com/wp-content/uploads/2014/06/bonus4.gif);
 
 	-webkit-background-size: 100%; 
     -moz-background-size: 100%; 
@@ -79,13 +103,12 @@ hr { margin: 40px 0px; border-color: #727878; opacity: 0.2; filter:alpha(opacity
 	-o-background-size: cover;
 	background-size: cover;
 	
-	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/background.gif', sizingMethod='scale')";
-	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/background.gif', sizingMethod='scale');
+	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/background.jpg', sizingMethod='scale')";
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/background.jpg', sizingMethod='scale');
 	
 	margin-bottom: 0px;
 	padding: 0px;
 	
-	height: 100%;
 }  
 .jumbotron .overlayPurple {  position: absolute; top: 0px; bottom: 485px; left: 0px; right: 0px; opacity: 0.16; filter:alpha(opacity=16); z-index: 1; background-color: #c28aff;}
 .jumbotron .overlay {  position: absolute; height: 100%; left: 0px; right: 0px; opacity: 0.96; filter:alpha(opacity=96); z-index: 2; background-color: #1a1a1a;}
@@ -121,10 +144,10 @@ hr { margin: 40px 0px; border-color: #727878; opacity: 0.2; filter:alpha(opacity
 
 .fixed .navbar  { position: fixed; top: 60px; }
 
-.background-white { background: #FFFFFF; }
-.background-gray { background: #434242; }
-.background-black { background: #000000; }
-.container { max-width: 1280px; padding: 40px 80px; }
+.background-white {z-index: 5; background: #FFFFFF; }
+.background-gray {z-index: 5; background: #434242; }
+.background-black {z-index: 5; background: #000000; }
+.container {z-index: 5; max-width: 1280px; padding: 40px 80px; }
 
 #profile .row > div { margin-bottom: 20px; }
 #profile .row > div img { width: 100%; max-width: 246px; height: auto; }
