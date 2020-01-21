@@ -84,10 +84,10 @@ hr { margin: 40px 0px; border-color: #727878; opacity: 0.2; filter:alpha(opacity
 	
 	margin-bottom: 0px;
 	padding: 0px;
+	
 }  
 .jumbotron .overlayPurple {  position: absolute; top: 0px; bottom: 485px; left: 0px; right: 0px; opacity: 0.16; filter:alpha(opacity=16); z-index: 1; background-color: #c28aff;}
-.jumbotron .overlay {  position: absolute; top: 152px; bottom: -159px; left: 0px; right: 0px; opacity: 0.96; filter:alpha(opacity=96); z-index: 2; background-color: #1a1a1a;}
-
+.jumbotron .overlay {  position: absolute; height: 100%; left: 0px; right: 0px; opacity: 0.96; filter:alpha(opacity=96); z-index: 2; background-color: #1a1a1a;}
 .jumbotron .container { position: relative; top: 28%; z-index: 4; text-align: center; }
 .jumbotron .container > * { text-align: center; color: #FFFFFF; }
 .jumbotron .container h1 { padding-bottom: 20px; border-bottom: 1px solid #FFFFFF; border-bottom-color: rgba(255,255,255,0.35); display: inline-block; }
