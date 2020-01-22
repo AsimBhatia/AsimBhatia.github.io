@@ -55,6 +55,10 @@ h3 { font-size: 28px; }
 	-webkit-text-fill-color: transparent;
 	animation: animate 15s linear infinite;
 	background-size: 1000%;
+	/* position: absolute;
+	left: 50%;
+	right:50%;
+	top:50%; */
 }
 @keyframes animate
 {
@@ -91,27 +95,28 @@ hr { margin: 40px 0px; border-color: #727878; opacity: 0.2; filter:alpha(opacity
 .icon.icon-email { background-position: 0px -96px; }
 
 .jumbotron {
-	background: no-repeat center right fixed url(https://www.thisiscolossal.com/wp-content/uploads/2014/06/bonus4.gif);
+	background: no-repeat center right fixed url(images/background.gif);
 
 	-webkit-background-size: 100%; 
     -moz-background-size: 100%; 
     -o-background-size: 100%; 
-    background-size: 100%; 
+	background-size: 100%;
+	height: 100%;
 	
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
 	
-	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/background.jpg', sizingMethod='scale')";
-	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/background.jpg', sizingMethod='scale');
+	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/background.gif', sizingMethod='scale')";
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/background.gif', sizingMethod='scale');
 	
 	margin-bottom: 0px;
 	padding: 0px;
 	
 }  
 .jumbotron .overlayPurple {  position: absolute; top: 0px; bottom: 485px; left: 0px; right: 0px; opacity: 0.16; filter:alpha(opacity=16); z-index: 1; background-color: #c28aff;}
-.jumbotron .overlay {  position: absolute; height: 100%; left: 0px; right: 0px; opacity: 0.96; filter:alpha(opacity=96); z-index: 2; background-color: #1a1a1a;}
+.jumbotron .overlay {  height: 100%; left: 0px; right: 0px; opacity: 0.96; filter:alpha(opacity=96); z-index: 2; background-color: #1a1a1a;}
 .jumbotron .container { position: relative; top: 28%; z-index: 4; text-align: center; }
 .jumbotron .container > * { text-align: center; color: #FFFFFF; }
 .jumbotron .container h1 { padding-bottom: 20px; border-bottom: 1px solid #FFFFFF; border-bottom-color: rgba(255,255,255,0.35); display: inline-block; }
