@@ -50,10 +50,10 @@ h3 { font-size: 28px; }
 
 .colorPrint {
 	color: transparent;
-	background-image: linear-gradient(to right , #f00,rgb(255, 123, 0),#ff0,#0f0,#0ff,#00f,rgb(204, 0, 255));
+	background-image: linear-gradient(to right , #f00,rgb(255, 123, 0),#ff0,#0f0,#0ff,#00f,rgb(204, 0, 255),rgb(255, 0, 200),#f00,rgb(255, 123, 0));
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
-	animation: animate 15s linear infinite;
+	animation: animate 11s linear infinite;
 	background-size: 1000%;
 	/* position: absolute;
 	left: 50%;
@@ -66,13 +66,13 @@ h3 { font-size: 28px; }
 	{
 		background-position: 0% 100%;
 	}
-	50%
+	/* 50%
 	{
 		background-position: 100% 0%;
-	}
+	} */
 	100%
 	{
-		background-position: 0% 100%;
+		background-position: 100% 0%;
 	}
 }
 
