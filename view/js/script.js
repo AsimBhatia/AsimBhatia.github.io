@@ -226,3 +226,50 @@ function searchVersion(pstrDataString)
 	
 	return parseFloat(pstrDataString.substring(lnIndex + this.versionSearchString.length + 1));
 }	
+
+
+
+
+// typewriter animation
+document.addEventListener('DOMContentLoaded',function(event){
+	// array with texts to type in typewriter
+	var dataText = ["//My Portfolio", "//Software Engineering", "//Contact Me"];
+	
+	// type one text in the typwriter
+	// keeps calling itself until the text is finished
+	function typeWriter(text, i, fnCallback) {
+	  // check if text isn't finished yet
+	  if (i < (text.length)) {
+		// add next character to #top
+	   document.querySelector("#cursor").innerHTML = text.substring(0, i+1) +'<span aria-hidden="true"></span>';
+  
+		// wait for a while and call this function again for next character
+		setTimeout(function() {
+		  typeWriter(text, i + 1, fnCallback)
+		}, 250); //this controls speed of the typing and the delay in between
+	  }
+	  // text finished, call callback if there is a callback function
+	  else if (typeof fnCallback == 'function') {
+		// call callback after timeout
+		setTimeout(fnCallback, 700);
+	  }
+	}
+	// start a typewriter animation for a text in the dataText array
+	 function StartTextAnimation(i) {
+	   if (typeof dataText[i] == 'undefined'){
+		  setTimeout(function() {
+			StartTextAnimation(0);
+		  }, 1000); //delay for re-typing
+	   }
+	   // check if dataText[i] exists
+	  if (i < dataText[i].length) {
+		// text exists! start typewriter animation
+	   typeWriter(dataText[i], 0, function(){
+		 // after callback (and whole text has been animated), start next text
+		 StartTextAnimation(i + 1);
+	   });
+	  }
+	}
+	// start the text animation
+	StartTextAnimation(0);
+  });
