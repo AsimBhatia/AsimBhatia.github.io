@@ -1,4 +1,4 @@
-html, body { color: #434242; font-family: 'Open Sans', sans-serif !important; }
+html, body { color: #434242; font-family: 'Open Sans', sans-serif }
 body { background: rgb(37, 37, 37); font-size: 15px; line-height: 1.64; }
 
 
@@ -42,11 +42,15 @@ header {
 	text-decoration: none;
 }
 
-h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, strong, b { font-family: 'Open Sans', sans-serif !important; margin-bottom: 20px; }
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, strong, b { font-family: 'Montserrat', sans-serif; margin-bottom: 20px; }
 h1,h4 { font-weight: 700; margin-bottom: 10px; }
 /* h2,h3 { font-weight: 300; color: #22A39F; } */
 h2 { font-size: 54px; text-align: center; }
 h3 { font-size: 28px; }
+
+/* h1{ this is for after when the screen is squished
+	font-size: 55px; 
+} */
 
 .colorPrint {
 	color: transparent;
