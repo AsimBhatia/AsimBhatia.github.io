@@ -121,7 +121,7 @@ hr { margin: 40px 0px; border-color: #727878; opacity: 0.2; filter:alpha(opacity
 }  
 
 .projectBack {
-	background: no-repeat center right fixed url(images/geometric-grey-background.jpg);
+	background: no-repeat center right fixed url(images/graySquares.jpg);
 
 	-webkit-background-size: 100%; 
     -moz-background-size: 100%; 
@@ -134,8 +134,8 @@ hr { margin: 40px 0px; border-color: #727878; opacity: 0.2; filter:alpha(opacity
 	-o-background-size: cover;
 	background-size: cover;
 	
-	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/geometric-grey-background.jpg', sizingMethod='scale')";
-	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/geometric-grey-background.jpg', sizingMethod='scale');
+	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/graySquares.jpg', sizingMethod='scale')";
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/graySquares.jpg', sizingMethod='scale');
 	
 	margin-bottom: 0px;
 	padding: 0px;
