@@ -119,6 +119,29 @@ hr { margin: 40px 0px; border-color: #727878; opacity: 0.2; filter:alpha(opacity
 	padding: 0px;
 	
 }  
+
+.projectBack {
+	background: no-repeat center right fixed url(images/geometric-grey-background.jpg);
+
+	-webkit-background-size: 100%; 
+    -moz-background-size: 100%; 
+    -o-background-size: 100%; 
+	background-size: 100%;
+	height: 100%;
+	
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	
+	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/geometric-grey-background.jpg', sizingMethod='scale')";
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/geometric-grey-background.jpg', sizingMethod='scale');
+	
+	margin-bottom: 0px;
+	padding: 0px;
+	
+}  
+
 .jumbotron .overlayPurple {  position: absolute; top: 0px; bottom: 485px; left: 0px; right: 0px; opacity: 0.16; filter:alpha(opacity=16); z-index: 1; background-color: #c28aff;}
 .jumbotron .overlay {  height: 100%; left: 0px; right: 0px; opacity: 0.96; filter:alpha(opacity=96); z-index: 2; background-color: #1a1a1a;}
 .jumbotron .container { position: relative; top: 28%; z-index: 4; text-align: center; }
