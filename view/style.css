@@ -154,7 +154,8 @@ hr { margin: 40px 0px; border-color: #727878; opacity: 0.2; filter:alpha(opacity
 .fixed .navbar  { position: fixed; top: 60px; }
 
 .background-white {z-index: 5; background: #FFFFFF; }
-.background-gray {z-index: 5; background: #434242; }
+.background-lightgray {z-index: 5; background: rgb(126, 126, 126); }
+.background-gray {z-index: 5; background: #3d3c3c; }
 .background-black {z-index: 5; background: #000000; }
 .container {z-index: 5; max-width: 1280px; padding: 40px 80px; }
 
