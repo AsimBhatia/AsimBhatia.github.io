@@ -144,6 +144,28 @@ hr { margin: 40px 0px; border-color: #727878; opacity: 0.2; filter:alpha(opacity
 
 .jumbotron .overlayPurple {  position: absolute; top: 0px; bottom: 485px; left: 0px; right: 0px; opacity: 0.16; filter:alpha(opacity=16); z-index: 1; background-color: #c28aff;}
 .jumbotron .overlay {  height: 100%; left: 0px; right: 0px; opacity: 0.96; filter:alpha(opacity=96); z-index: 2; background-color: #1a1a1a;}
+/* .overlayGradient 
+{  
+	//background: no-repeat center right fixed;
+	height: 100%; 
+	width: 100%;
+	left: 0px; 
+	right: 0px; 
+	//z-index: 2; 
+	background: linear-gradient(rgba(255, 255, 255, 0.6),rgba(0, 0, 0, 0.6)),url(images/graySquares.jpg);
+	
+} */
+.overlayGradient 
+{  
+	/* background: no-repeat center right fixed; */
+	height: 100%; 
+	width: 100%;
+	left: 0px; 
+	right: 0px; 
+	/* z-index: 2;  */
+	background: linear-gradient(rgba(255, 255, 255, 0.6),rgba(0, 0, 0, 0.8));
+	
+}
 .jumbotron .container { position: relative; top: 28%; z-index: 4; text-align: center; }
 .jumbotron .container > * { text-align: center; color: #FFFFFF; }
 .jumbotron .container h1 { padding-bottom: 20px; border-bottom: 1px solid #FFFFFF; border-bottom-color: rgba(255,255,255,0.35); display: inline-block; }
@@ -162,6 +184,15 @@ hr { margin: 40px 0px; border-color: #727878; opacity: 0.2; filter:alpha(opacity
 	animation-direction: normal;
 }
 .jumbotron .scroll-down:hover .glyphicon { padding-top: 25px; }
+
+
+.shadow {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
+}
+
+.textShadow {
+	text-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.3), 0 6px 20px 0 rgba(255, 255, 255, 0.3);
+}
 
 .navbar  { border: 0px; background-color: #222222; position: absolute; top: 100%; right: 5%; width: 110px; z-index: 999; }
 .navbar .navbar-collapse { padding: 0px; max-height: none; }
