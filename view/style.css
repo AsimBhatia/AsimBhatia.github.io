@@ -3,6 +3,13 @@ body { background: rgb(37, 37, 37); font-size: 15px; line-height: 1.64; }
 
 
 
+
+
+
+
+
+
+
 li, a, button{
 	font-weight: 500;
 	font-size: 16px;
@@ -191,7 +198,7 @@ hr { margin: 40px 0px; border-color: #727878; opacity: 0.2; filter:alpha(opacity
 }
 
 .textShadow {
-	text-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.3), 0 6px 20px 0 rgba(255, 255, 255, 0.3);
+	text-shadow: 0 4px 8px 20px rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
 }
 
 .navbar  { border: 0px; background-color: #222222; position: absolute; top: 100%; right: 5%; width: 110px; z-index: 999; }
@@ -304,6 +311,17 @@ hr { margin: 40px 0px; border-color: #727878; opacity: 0.2; filter:alpha(opacity
 #contact a { display: block; line-height: 32px; margin-bottom: 50px; margin-top: 50px; opacity: 1; filter:alpha(opacity=60);  }
 #contact a .icon { float: left; margin-right: 20px; }
 #contact a:hover { opacity: .6; filter:alpha(opacity=60); text-decoration: none; }
+/* #contact a:hover{
+	background: #fff;
+	box-shadow: 0 0 10px rgba(255,255,255,1),
+	   0 0 20px rgba(255,255,255,1),
+	   0 0 30px rgba(255,255,255,1),
+	   0 0 0 75px rgba(255,255,255,0.05),
+	   0 0 0 60px rgba(255,255,255,0.05),
+	   0 0 0 50px rgba(255,255,255,0.05),
+	   0 0 0 40px rgba(255,255,255,0.05),
+	   0 0 0 30px rgba(255,255,255,0.05);
+   } */
 
 
 
