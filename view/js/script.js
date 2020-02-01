@@ -278,4 +278,11 @@ document.addEventListener('DOMContentLoaded',function(event){
 
 
 
-  
+//   hamburger menu side bar
+
+const menuIcon = document.querySelector('.hamburger-menu');
+const navbarBar = document.querySelector('.navbarBar');
+
+menuIcon.addEventListener('click', () => {
+	navbarBar.classList.toggle("change");
+});
