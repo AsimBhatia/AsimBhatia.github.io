@@ -724,7 +724,7 @@ figure.effect:hover p {
 /* hamburger menu side bar */
 
 .containerBar {
-	font-family: "Dosis", sans-serif;
+	font-family: "Open Sans", sans-serif;
 	width: 100%;
 	height: 100vh;
 	background: linear-gradient(
@@ -738,7 +738,7 @@ figure.effect:hover p {
 .navbarBar {
 	width: 300px;
 	height: 100%;
-	background-color: #1f1f1fee;
+	background-color: #262626d3;
 	position: fixed;
 	top: 0;
 	right: -300px;
@@ -787,7 +787,6 @@ figure.effect:hover p {
 
 .nav-list {
 	text-align: right;
-	text-decoration: none;
 }
 
 .nav-item {
@@ -806,10 +805,10 @@ figure.effect:hover p {
 	padding: 3px 0;
 }
 
-/* .ul li a:focus {
+.ul li a:focus {
 	color: #c28aff;
 	text-decoration: none;
-} */
+}
 
 .nav-link::before,
 .nav-link::after {
