@@ -585,7 +585,7 @@ figure.effect:hover p {
 	color: white;
     font-weight: bold; /* Making font bold */
     border-radius: 20px; /* Making border radius */
-    width: auto; /* Making auto-sizable width */
+    width: 50%; /* Making auto-sizable width */
     height: auto; /* Making auto-sizable height */
     padding: 5px 30px 5px 30px; /* Making space around letters */
     font-size: 18px; /* Changing font size */
