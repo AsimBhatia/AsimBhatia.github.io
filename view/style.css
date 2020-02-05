@@ -150,7 +150,7 @@ hr { margin: 40px 0px; border-color: #727878; opacity: 0.2; filter:alpha(opacity
 }  
 
 .jumbotron .overlayPurple {  position: absolute; top: 0px; bottom: 485px; left: 0px; right: 0px; opacity: 0.16; filter:alpha(opacity=16); z-index: 1; background-color: #c28aff;}
-.jumbotron .overlay {  height: 100%; left: 0px; right: 0px; opacity: 0.96; filter:alpha(opacity=96); z-index: 2; background-color: #1a1a1a;}
+.jumbotron .overlay {  height: 100%; left: 0px; right: 0px; opacity: 0.98; filter:alpha(opacity=98); z-index: 2; background-color: #1a1a1a;}
 /* .overlayGradient 
 {  
 	//background: no-repeat center right fixed;
@@ -195,6 +195,18 @@ hr { margin: 40px 0px; border-color: #727878; opacity: 0.2; filter:alpha(opacity
 
 .shadow {
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
+}
+
+.shadowMiddle {
+	box-shadow: 0 0px 8px 0 rgba(0, 0, 0, 0.3), 0 0px 20px 0 rgba(0, 0, 0, 0.3);
+}
+
+.shadowWhite {
+	box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.432), 0 6px 20px 0 rgba(255, 255, 255, 0.432);
+}
+
+.shadowPurple {
+	box-shadow: 0 0px 8px 0 rgba(182, 45, 255, 0.432), 0 0px 2px 0 rgba(182, 45, 255, 0.432);
 }
 
 .textShadow {
@@ -566,13 +578,26 @@ figure.effect:hover p {
 	}
   } */
 
+.textstyle {
+	background-color: #222222; /* Changing background color */
+	/* opacity: 1.00; 
+	filter:alpha(opacity=1); */
+	color: white;
+    font-weight: bold; /* Making font bold */
+    border-radius: 20px; /* Making border radius */
+    width: auto; /* Making auto-sizable width */
+    height: auto; /* Making auto-sizable height */
+    padding: 5px 30px 5px 30px; /* Making space around letters */
+    font-size: 18px; /* Changing font size */
+}
+
   .words {
 	  color:white;
 	  line-height: 1;
   }
 
   .words span {
-	  font-size: 10vw;
+	  font-size: 8vw;
 	  display: inline-block;
 	  animation: move 2s ease-in-out infinite;
   }
@@ -835,4 +860,31 @@ figure.effect:hover p {
 .nav-link:hover::before,
 .nav-link:hover::after {
 	transform: scaleX(1);
+}
+
+/* typewriter */
+.cursor {
+	display: inline-block;
+	width: 2px;
+	background-color: white;
+	margin-left: 0.1rem;
+	animation: blink 1s infinite;
+}
+
+.cursor.typing {
+	animation: none;
+}
+
+@keyframes blink {
+	0% {
+		background-color: white;
+	} 49% {
+		background-color: white;
+	} 50% {
+		background-color: transparent;
+	} 99% {
+		background-color: transparent;
+	} 100% {
+		background-color: white;
+	}
 }

@@ -75,42 +75,44 @@
 <body data-spy="scroll" data-target="#navbar-example">
 
 	<!-- <div class="containerBar"> -->
-		<nav class="navbarBar" style="z-index: 999;">
-			<div class="hamburger-menu">
-				<div class="line line-1"></div>
-				<div class="line line-2"></div>
-				<div class="line line-3"></div>
-			</div>
 
-			<ul style="text-decoration: none" class="nav_links">
-				<li  class="nav-item">
-					<a  href="#top" class="nav-link">Home</a>
-				</li>
-				<li class="nav-item">
-					<a href="#profile" class="nav-link">Profile</a>
-				</li>
-				<li class="nav-item">
-					<a href="#projects" class="nav-link">Projects</a>
-				</li>
-				<li class="nav-item">
-					<a href="#experiences" class="nav-link">Experiences</a>
-				</li>
-				<li class="nav-item">
-					<a href="#contact" class="nav-link">Contact</a>
-				</li>
-			</ul>
 
-		</nav>
+	<nav class="navbarBar" style="z-index: 999;">
+		<div class="hamburger-menu">
+			<div class="line line-1"></div>
+			<div class="line line-2"></div>
+			<div class="line line-3"></div>
+		</div>
+
+		<ul style="text-decoration: none" class="nav_links">
+			<li class="nav-item">
+				<a href="#top" class="nav-link">Home</a>
+			</li>
+			<li class="nav-item">
+				<a href="#profile" class="nav-link">Profile</a>
+			</li>
+			<li class="nav-item">
+				<a href="#projects" class="nav-link">Projects</a>
+			</li>
+			<li class="nav-item">
+				<a href="#experiences" class="nav-link">Experiences</a>
+			</li>
+			<li class="nav-item">
+				<a href="#contact" class="nav-link">Contact</a>
+			</li>
+		</ul>
+
+	</nav>
 	<!-- </div> -->
 
 	<!-- <script src="script.js"></script> -->
 	<!-- MAYBE TOP LINE NOT NEEDED ^^^^^ -->
 
-	<div>
+	<!-- <div>
 		<div id="top"
 			style=" color: white; font-family: 'Courier New', Courier, monospace; font-size: 4vw ; text-align: center; padding: 30px; background-color: rgb(34, 34, 34); border-width: 10px; border-color: black;">
 			<span id="cursor" class="text-monospace"><em>//My Portfolio</em></span></div>
-	</div>
+	</div> -->
 
 	<!-- PONCHO change font-size back to 40px -->
 
@@ -168,13 +170,34 @@
 
 	<!-- <hr style="margin-top: 0px; padding: 0px;"> -->
 
-	<div id="top" class="jumbotron" data-src="/view/images/metro_animation.gif" data-position="center right">
+	<!-- <div id="top" class="jumbotron" data-src="/view/images/metro_animation.gif" data-position="center right">
 		<div class="overlay">
 			<div class="container" style="font-family: 'Montserrat', sans-serif;">
 				<h1 style="font-family: 'Montserrat', sans-serif; font-size: 8vw; text-transform: uppercase; font-weight: bold;"
 					class="colorPrint">Asim Bhatia</h1>
 				<p style="padding-bottom: 400px; font-size: 3vw; font-family: 'Montserrat', sans-serif;" class="colorPrint"
-					class="lead">Visionary</p>
+					class="lead">Visionary <span id="cursor" class="text-monospace textstyle"><em>//My Portfolio</em></span></p>
+					
+			</div>
+		</div>
+	</div> -->
+
+
+
+
+	<div id="top" class="jumbotron" data-src="/view/images/metro_animation.gif" data-position="center right">
+		<img style="width: 7vw; display: block; float: left; margin: 20px; z-index: 100; position: absolute;"
+			src="view/images/logoABWhiteTransparent.png">
+		<div class="overlay">
+			<div class="container" style="font-family: 'Montserrat', sans-serif;">
+				<h1 style=" font-family: 'Montserrat', sans-serif; font-size: 8vw; text-transform: uppercase; font-weight: bold;"
+					class="colorPrint">Asim Bhatia</h1>
+				<!-- <p style=" padding-top: 50px;">//<span id="cursor" class="text-monospace textstyle" style="font-size: 1.7vw;"></span></p> -->
+				<p class="textstyle shadowMiddle"
+					style="font-size: 1.5vw; text-align: center; margin-left: auto; margin-right: auto; width: 33%; margin-top: 50px;">
+					<span style="color: rgb(255, 255, 255);">I am a </span><span class="typed-text"
+						style="font-size: 1.5vw; color: #c28aff;"></span><span class="cursor"
+						style="font-size: 1vw;">&nbsp;</span></p>
 			</div>
 		</div>
 
@@ -183,10 +206,13 @@
 	</div>
 
 
-	<div style=" padding-bottom: 50px; display: flex-inline" class="background-white">
+
+
+
+	<div style=" padding-bottom: 50px;" class="background-white shadowWhite">
 		<div style="display: block" id="profile" class="container">
-			<div class="row wow zoomIn" style="padding: 0%; padding-bottom: 20px; margin: 0%;">
-				<div class="col-md-4" style="padding: 0%; margin: 0%;">
+			<div class="row wow zoomIn" style="padding: 0%; padding-bottom: 20px; margin: 0%; display: inline">
+				<!-- <div class="col-md-4" style="padding: 0%; margin: 0%;">
 					<h2 class="wow zoomIn" style="padding-top: 40px; text-align: left">Profile</h2>
 					<p class="wow zoomIn lead" style="color: #c28aff; text-align: left">Undergraduate Student</p>
 
@@ -203,15 +229,19 @@
 					<img class="shadow"
 						style="width: 130px; float: right; padding:0%; margin: 0%; display: inline; border-radius: 50%; border-width: 7px; border-color: #c28aff; border-style: solid;"
 						src="view/images/profilePic.png">
-				</div>
+				</div> -->
 
 
-				<!-- <div class="col-md-8" style="padding: 0%; margin: 0%;">
-					<div style="display: flex;">
-						<h2 class="wow zoomIn" style="padding-top: 40px; text-align: left">Profile</h2>
-						<p class="wow zoomIn lead" style="color: #c28aff; text-align: left">Undergraduate Student</p>
+				<div style="padding: 0%; margin: 0%; display: inline;">
+					<div style="display: inline">
+						<h2 style="padding-top: 40px; text-align: left; width: fit-content; display: inline;  padding-right: 100px;">
+							Profile
+						</h2>
+						
 					</div>
-					<div style="display:flex; justify-content: center; font-weight: bold;" class="words words-1" style=" text-align: center;">
+
+					<div style="font-weight: bold; width: 30%; margin: 0%; display: inline;" class="words words-1"
+						style=" text-align: center; bottom: 0%;">
 						<span>></span>
 						<span>></span>
 						<span>></span>
@@ -220,8 +250,11 @@
 					<img class="shadow"
 						style="width: 130px; float: right; padding:0%; margin: 0%; display: inline; border-radius: 50%; border-width: 7px; border-color: #c28aff; border-style: solid;"
 						src="view/images/profilePic.png">
-				</div> -->
-
+				</div>
+				<p class="lead" style="color: #c28aff; text-align: left; width: fit-content; display:block; clear: both;" >
+					Undergraduate
+					Student
+				</p>
 
 
 			</div>
@@ -230,25 +263,25 @@
 
 			<hr style="clear: none; padding: 0%; margin: 0%;">
 
-			<div class="row wow fadeInUp" style="padding-top: 50px; text-align: center;">
+			<div class="row wow fadeIn" style="padding-top: 50px; text-align: left;">
 				<div class="col-md-3">
 					<h3>About me</h3>
 					<p>I recently graduated from highschool and am currently a student attending Waterloo University,
 						pursuing a bachelor's degree in Software Engineering.</p>
 				</div>
-
+				<div class="col-md-1"></div>
 				<div class="col-md-3">
 					<h3>Details</h3>
 					<p>
-						<strong>Name:</strong><br />
+						<strong>Name:</strong>
 						Asim Bhatia<br />
-						<strong>Age:</strong><br />
+						<strong>Age:</strong>
 						18<br />
-						<strong>Location:</strong><br />
+						<strong>Location:</strong>
 						Guelph, ON, CA </p>
 
 				</div>
-				<div class="col-md-3">
+				<div class="col-md-2">
 					<h3>Interests</h3>
 					<p>
 						<b>1. </b>Mathematics<br>
@@ -257,7 +290,8 @@
 					</p>
 
 				</div>
-				<div class="col-md-3">
+				<div class="col-md-1"></div>
+				<div class="col-md-2">
 					<h3>Hobbies</h3>
 					<p>
 						<b>&#8902; </b>Playing soccer<br>
@@ -272,12 +306,15 @@
 
 			</div>
 			<div>
-				<img class="wow rubberBand" style="display: block; float: left; width: 10vw;" src="view/images/lamp.png">
-				<img class="wow rubberBand" style="display: block; float: right; width: 10vw;" src="view/images/soccer.png">
-				<img class="wow rubberBand" style="display: block; margin-left: auto; margin-right: auto; width: 12vw;" src="view/images/laptop.png">
+				<img class="wow rubberBand" style="display: block; float: left; width: 10vw;"
+					src="view/images/lamp.png">
+				<img class="wow rubberBand" style="display: block; float: right; width: 10vw;"
+					src="view/images/soccer.png">
+				<img class="wow rubberBand" style="display: block; margin-left: auto; margin-right: auto; width: 12vw;"
+					src="view/images/laptop.png">
 			</div>
 		</div>
-		
+
 	</div>
 	</div>
 
@@ -488,58 +525,58 @@
 		<div id="contact" class="container">
 			<div>
 				<h2 class="wow fadeIn">Contact</h2class="wow fadeIn">
-				<p class="lead wow fadeIn" style="color: #c28aff;">
-					<!-- &ldquo;Li'l Kodak they don't like to see you winnin',
+					<p class="lead wow fadeIn" style="color: #c28aff;">
+						<!-- &ldquo;Li'l Kodak they don't like to see you winnin',
 	they wanna see you in a penitentiary &rdquo;<br />- Kodak Black -->
-					Personal Info
-				</p>
+						Personal Info
+					</p>
 
-				<hr />
+					<hr />
 
-				<div class="row wow bounce">
-					<div class="col-md-2" style="text-align: center;">
-						<a href="https://facebook.com/asim.bhatia.71/" target="_blank">
-							<img style="width: 55px; display: inline;"
-								src="https://en.facebookbrand.com/wp-content/uploads/2019/04/f_logo_RGB-Hex-Blue_512.png">
-							<!-- <span class="icon icon-twitter"></span> --> </a>
-					</div>
-					<div class="col-md-3" style="text-align: center;">
-						<a href="https://www.linkedin.com/in/asim-bhatia/" target="_blank">
-							<img style="width: 55px; display: inline;"
-								src="http://icons.iconarchive.com/icons/martz90/circle/512/linkedin-icon.png">
-							<!-- <span class="icon icon-linkedin"></span> --> </a>
+					<div class="row wow bounce">
+						<div class="col-md-2" style="text-align: center;">
+							<a href="https://facebook.com/asim.bhatia.71/" target="_blank">
+								<img style="width: 55px; display: inline;"
+									src="https://en.facebookbrand.com/wp-content/uploads/2019/04/f_logo_RGB-Hex-Blue_512.png">
+								<!-- <span class="icon icon-twitter"></span> --> </a>
+						</div>
+						<div class="col-md-3" style="text-align: center;">
+							<a href="https://www.linkedin.com/in/asim-bhatia/" target="_blank">
+								<img style="width: 55px; display: inline;"
+									src="http://icons.iconarchive.com/icons/martz90/circle/512/linkedin-icon.png">
+								<!-- <span class="icon icon-linkedin"></span> --> </a>
 
-					</div>
-					<div class="col-md-2" style="text-align: center;">
-						<a href="mailto:a53bhati@uwaterloo.ca">
-							<img style="width: 55px; display: inline;"
-								src="https://cdn4.iconfinder.com/data/icons/various-icons-2/476/Outlook.png">
-							<!-- <span class="icon icon-email"></span>
+						</div>
+						<div class="col-md-2" style="text-align: center;">
+							<a href="mailto:a53bhati@uwaterloo.ca">
+								<img style="width: 55px; display: inline;"
+									src="https://cdn4.iconfinder.com/data/icons/various-icons-2/476/Outlook.png">
+								<!-- <span class="icon icon-email"></span>
 					<span style=" direction: rtl;"> --> </span>
-						</a>
-					</div>
-					<div class="col-md-3" style="text-align: center;">
-						<a href="mailto:asbha8913@gmail.com">
-							<img style="width: 55px; display: inline;"
-								src="https://cdn2.iconfinder.com/data/icons/social-icons-circular-color/512/gmail-512.png">
-							<!-- <span class="icon icon-email"></span>
+							</a>
+						</div>
+						<div class="col-md-3" style="text-align: center;">
+							<a href="mailto:asbha8913@gmail.com">
+								<img style="width: 55px; display: inline;"
+									src="https://cdn2.iconfinder.com/data/icons/social-icons-circular-color/512/gmail-512.png">
+								<!-- <span class="icon icon-email"></span>
 					<span style=" direction: rtl;"> --> </span>
-						</a>
+							</a>
+						</div>
+						<div class="col-md-2" style="text-align: center;">
+							<a href="https://github.com/AsimBhatia" target="_blank">
+								<img style="width: 55px; display: inline;"
+									src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuh7P_-HlqG79O5NKipWod9MM5bmlAdN0KsYWtpj9KVGicnK-1&s">
+								<!-- <span class="icon icon-linkedin"></span> --> </a>
+
+						</div>
 					</div>
-					<div class="col-md-2" style="text-align: center;">
-						<a href="https://github.com/AsimBhatia" target="_blank">
-							<img style="width: 55px; display: inline;"
-								src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuh7P_-HlqG79O5NKipWod9MM5bmlAdN0KsYWtpj9KVGicnK-1&s">
-							<!-- <span class="icon icon-linkedin"></span> --> </a>
 
-					</div>
-				</div>
+					<hr>
 
-				<hr>
-
-				<a href="#top"><img
-						style="display: block; width: 100px; margin-left: auto; margin-right: auto; padding-top: 40px; padding-top: 40px;"
-						src="view/images/logoABWhiteTransparent.png"></a>
+					<a href="#top"><img
+							style="display: block; width: 100px; margin-left: auto; margin-right: auto; padding-top: 40px; padding-top: 40px;"
+							src="view/images/logoABWhiteTransparent.png"></a>
 
 			</div>
 		</div>
@@ -569,7 +606,7 @@
 
 	<!-- Bootstrap core JavaScript -->
 	<script type="text/javascript" src="ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-</script>
+	</script>
 	<script type="text/javascript" src="view/js/script.js"></script>
 	<script type="text/javascript" src="view/js/bootstrap.min.js"></script>
 
