@@ -27,6 +27,7 @@
 	<script>
 		new WOW().init();
 	</script>
+	<link rel="stylesheet" href="./node_modules/sal.js/dist/sal.css">
 
 
 	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
@@ -79,15 +80,14 @@
 
 	<!-- <div class="containerBar"> -->
 
-	<section>
-		<h1
-			data-sal-duration="1200"
-			data-sal="slide-up"
-			data-sal-delay="300"
-			data-sal-easing="ease-out-bounce">
+	<!-- <section>
+		<div data-sal-duration="1200" data-sal="slide-up" data-sal-delay="300" data-sal-easing="ease-in-bounce">
+			<h1>
 			Scroll fade time
 		</h1>
-	</section>
+		</div>
+		
+	</section> -->
 
 	<nav class="navbarBar" style="z-index: 999;">
 		<div class="hamburger-menu">
@@ -197,11 +197,12 @@
 
 
 
-	<div id="top" class="jumbotron" data-src="/view/images/metro_animation.gif" data-position="center right">
-		<a href="https://asimbhatia.me/"><img style="width: 5vw; display: block; float: left; margin: 40px; z-index: 100; position: absolute;"
-			src="view/images/logoABWhiteTransparent.png"></a>
+	<div id="top" class="jumbotron" data-src="/view/images/metro_animation.gif" data-position="center right" >
+		<a href="https://asimbhatia.me/"><img
+				style="width: 5vw; display: block; float: left; margin: 40px; z-index: 100; position: absolute;"
+				src="view/images/logoABWhiteTransparent.png"></a>
 		<div class="overlay">
-			<div class="container" style="font-family: 'Montserrat', sans-serif;">
+			<div class="container" data-sal-duration="1200" data-sal="fade" data-sal-delay="300" data-sal-easing="ease-in-bounce" style="font-family: 'Montserrat', sans-serif;">
 				<h1 style=" font-family: 'Montserrat', sans-serif; font-size: 8vw; text-transform: uppercase; font-weight: bold;"
 					class="colorPrint">Asim Bhatia</h1>
 				<!-- <p style=" padding-top: 50px;">//<span id="cursor" class="text-monospace textstyle" style="font-size: 1.7vw;"></span></p> -->
@@ -222,7 +223,7 @@
 
 
 	<div style=" padding-bottom: 50px;" class="background-white shadowWhite">
-		<div style="display: block" id="profile" class="container">
+		<div style="display: block" id="profile" class="container" data-sal-duration="1200" data-sal="fade" data-sal-delay="300" data-sal-easing="ease-in-bounce">
 			<div class="row wow zoomIn" style="padding: 0%; padding-bottom: 20px; margin: 0%; display: inline">
 				<!-- <div class="col-md-4" style="padding: 0%; margin: 0%;">
 					<h2 class="wow zoomIn" style="padding-top: 40px; text-align: left">Profile</h2>
@@ -246,10 +247,11 @@
 
 				<div style="padding: 0%; margin: 0%; display: inline;">
 					<div style="display: inline">
-						<h2 style="padding-top: 40px; text-align: left; width: fit-content; display: inline;  padding-right: 2vw; float: initial;">
+						<h2
+							style="padding-top: 40px; text-align: left; width: fit-content; display: inline;  padding-right: 2vw; float: initial;">
 							Profile
 						</h2>
-						
+
 					</div>
 
 					<div style="font-weight: bold; width: 30%; margin: 0%; display: inline;" class="words words-1"
@@ -263,7 +265,8 @@
 						style="width: 13vw; float: right; padding:0%; margin: 0%; display: inline; border-radius: 50%; border-width: .7vw; border-color: #c28aff; border-style: solid;"
 						src="view/images/profilePic.png">
 				</div>
-				<p class="lead" style="color: #c28aff; text-align: left; width: fit-content; display:block; clear: left;" >
+				<p class="lead"
+					style="color: #c28aff; text-align: left; width: fit-content; display:block; clear: left;">
 					Undergraduate
 					Student
 				</p>
@@ -345,21 +348,21 @@
 	<div class="projectBack">
 		<!-- <div class="overlayGradient">
 	</div> -->
-		<div id="projects" class="container-fluid overlayGradient">
-			<div class="container">
-				<div style="background-color: white;" class="wow zoomIn shadow">
+		<div id="projects" class="container-fluid overlayGradient" >
+			<div  class="container" data-sal-duration="1200" data-sal="fade" data-sal-delay="300" data-sal-easing="ease-in-bounce">
+				<div style="background-color: white;" class="shadow">
 					<h2 style="padding-top:20px;">Projects</h2>
-					<p class="lead" style="padding-bottom:20px; color: #c28aff;"> Some Cool Stuff I've Done<br />
+					<p class="lead" style="padding-bottom:20px; color: #c28aff;">Some Cool Stuff I've Done<br />
 					</p>
 				</div>
 				<hr style="border-color: rgb(255, 255, 255); border-width: 5px;">
 
 				<!-- <hr style="color: black;"> -->
 
-				<div class="row">
+				<div  class="row" >
 
 					<!-- style="padding-right: 0%; padding-left: 0%; margin-right: 15px;" -->
-					<div class="col-md-6 col-sm-12 col-xs-12 wow fadeInUp">
+					<div class="col-md-6 col-sm-12 col-xs-12 " >
 						<div class="shadow">
 							<figure class="effect">
 								<img src="view/images/DodgeballMadness.gif" />
@@ -379,7 +382,7 @@
 					</div>
 
 
-					<div class="col-md-6 col-sm-12 col-xs-12 wow fadeInUp">
+					<div class="col-md-6 col-sm-12 col-xs-12">
 						<div class="shadow">
 							<figure class="effect">
 								<img src="view/images/tangible_scroll.gif" />
@@ -404,7 +407,7 @@
 
 
 	<div>
-		<div id="experiences" class="container" style="color: rgb(255, 255, 255);">
+		<div id="experiences" class="container" style="color: rgb(255, 255, 255);" data-sal-duration="1200" data-sal="fade" data-sal-delay="300" data-sal-easing="ease-in-bounce">
 			<h2 style="color: rgb(255, 255, 255); text-align: left;">Experience</h2>
 			<p class="lead" style="color: #c28aff; text-align: left;">
 				What I Do
@@ -416,13 +419,13 @@
 	<strong>Looking for an awesome new challenge somewhere in the neighborhood of Den Bosch or Amsterdam as a Creative PHP Web Developer. </strong>
 </div>-->
 
-			<h3 class="wow fadeIn">Education</h3>
+			<h3 >Education</h3>
 
 
 			<div class="experiences">
 
 
-				<div class="wow fadeInUp experience row">
+				<div class="experience row">
 					<div class="col-md-4">
 						<h4>University of Waterloo</h4>
 						<p class="experience-period">
@@ -454,7 +457,7 @@
 				</div>
 
 
-				<div class="wow fadeInUp experience row">
+				<div class="experience row">
 					<div class="col-md-4">
 						<h4 class="hideme">Centennial Collegiate Vocational Institute</h4>
 						<p class="experience-period">
@@ -490,13 +493,13 @@
 
 			<hr />
 
-			<h3 class="wow fadeIn">Work Experience</h3>
+			<h3 >Work Experience</h3>
 
 
 			<div class="experiences">
 
 
-				<div class="wow fadeInUp experience row">
+				<div class=" experience row">
 					<div class="col-md-4">
 						<h4>Kumon North America, Inc. - Education Company</h4>
 						<p class="experience-period">
@@ -534,9 +537,9 @@
 
 
 	<div class="background-black">
-		<div id="contact" class="container">
+		<div id="contact" class="container" data-sal-duration="1200" data-sal="fade" data-sal-delay="300" data-sal-easing="ease-in-bounce">
 			<div>
-				<h2 class="wow fadeIn">Contact</h2class="wow fadeIn">
+				<h2>Contact</h2class="wow fadeIn">
 					<p class="lead wow fadeIn" style="color: #c28aff;">
 						<!-- &ldquo;Li'l Kodak they don't like to see you winnin',
 	they wanna see you in a penitentiary &rdquo;<br />- Kodak Black -->
@@ -622,6 +625,14 @@
 	<script type="text/javascript" src="view/js/script.js"></script>
 	<script type="text/javascript" src="view/js/bootstrap.min.js"></script>
 
+	<script src="./node_modules/sal.js/dist/sal.js">
+	</script>
+	<script>
+		sal({
+			threshold: 0.5,
+			once: false
+		});
+	</script>
 
 
 

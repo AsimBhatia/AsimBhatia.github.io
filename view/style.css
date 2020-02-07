@@ -2,9 +2,6 @@ html, body { color: #434242; font-family: 'Open Sans', sans-serif }
 body { background: rgb(37, 37, 37); font-size: 15px; line-height: 1.64; }
 
 
-@import '../node_modules/sal.js/dist/sal.css';
-
-
 
 
 
@@ -61,10 +58,12 @@ h3 { font-size: 28px; }
 
 .colorPrint {
 	color: transparent;
-	background-image: linear-gradient(to right , #f00,rgb(255, 123, 0),#ff0,#0f0,#0ff,#00f,rgb(204, 0, 255),rgb(255, 0, 200),#f00,rgb(255, 123, 0));
+	/* background-image: linear-gradient(to right , #f00,rgb(255, 123, 0),#ff0,#0f0,#0ff,#00f,rgb(204, 0, 255),rgb(255, 0, 200),#f00,rgb(255, 123, 0)); */
+	background-image: linear-gradient(to right, #e600ff, #bf00ff, #8400ff, #1900ff, #008cff, #00e5ff, #e600ff, #bf00ff);
 	-webkit-background-clip: text;
+	
 	-webkit-text-fill-color: transparent;
-	animation: animate 11s linear infinite;
+	animation: animate 8s linear infinite;
 	background-size: 1000%;
 	/* position: absolute;
 	left: 50%;
