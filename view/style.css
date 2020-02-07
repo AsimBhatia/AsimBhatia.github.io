@@ -2,7 +2,7 @@ html, body { color: #434242; font-family: 'Open Sans', sans-serif }
 body { background: rgb(37, 37, 37); font-size: 15px; line-height: 1.64; }
 
 
-
+@import '../node_modules/sal.js/dist/sal.css';
 
 
 

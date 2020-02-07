@@ -1,0 +1,23 @@
+{
+  "name": "OnlineWebsite",
+  "version": "1.0.0",
+  "description": "personal website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AsimBhatia/AsimBhatia.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AsimBhatia/AsimBhatia.github.io/issues"
+  },
+  "homepage": "https://github.com/AsimBhatia/AsimBhatia.github.io#readme",
+  "dependencies": {
+    "sal.js": "^0.7.1"
+  }
+}
