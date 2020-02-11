@@ -147,11 +147,15 @@
 	</header> -->
 
 
-	<!-- hamburger menu side bar -->
+	<!-- Loader Wrapper -->
 
 
 
+	<div class="loader-wrapper" style="z-index: 999;">
+		<span class="loader"><span class="loader-inner"></span></span>
+	</div>
 
+	
 
 
 	<!-- <div class="menu">
@@ -644,6 +648,11 @@
 
 
 	<footer style="color: black; padding: 12px; background-color: #c28aff"> | &#169; 2020 Asim Bhatia | </footer>
+	<script>
+		$(window).on("load",function(){
+			$(".loader-wrapper").fadeOut("slow");
+		});
+	</script>
 </body>
 
 </html>
