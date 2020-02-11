@@ -19,6 +19,7 @@
   "homepage": "https://github.com/AsimBhatia/AsimBhatia.github.io#readme",
   "dependencies": {
     "node-github-pages": "^0.1.1",
-    "sal.js": "^0.7.1"
+    "node-sass": "^4.13.1",
+    "sal.js": "^0.7.2"
   }
 }
