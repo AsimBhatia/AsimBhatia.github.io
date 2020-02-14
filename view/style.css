@@ -1468,5 +1468,6 @@ figure.effect:hover p {
   border-color: #c28aff;
   background-color: #c28aff;
   text-decoration: none;
+  border-radius: 30px;
 }
 /*# sourceMappingURL=style.css.map */
