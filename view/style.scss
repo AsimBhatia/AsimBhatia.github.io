@@ -172,11 +172,11 @@ hr { margin: 40px 0px; border-color: #727878; opacity: 0.2; filter:alpha(opacity
 	background: linear-gradient(rgba(255, 255, 255, 0.6),rgba(0, 0, 0, 0.8));
 	
 }
-.jumbotron .container { position: relative; top: 28%; z-index: 4; text-align: center; }
+.jumbotron .container { position: relative; top: 25%; z-index: 4; text-align: center; }
 .jumbotron .container > * { text-align: center; color: #FFFFFF; }
-.jumbotron .container h1 { padding-bottom: 20px; border-bottom: 1px solid #FFFFFF; border-bottom-color: rgba(255,255,255,0.35); display: inline-block; }
+.jumbotron .container h1 { padding-bottom: 25px; border-bottom: 1px solid; border-bottom-color: rgb(255, 255, 255); display: inline-block; }
 .jumbotron .container .lead { font-size: 28px; }
-.jumbotron .scroll-down { height: 80px; width: 110px; display: block; position: absolute; bottom: 0px; right: 5%; background-color: #222222; text-align: center; z-index: 6; }
+.jumbotron .scroll-down { height: 80px; width: 110px; display: block; position: absolute; bottom: 5%; left: 50%; transform: translate(-50%); background-color: transparent; text-align: center; z-index: 6; }
 .jumbotron .scroll-down .glyphicon { 
 	color: #FFFFFF; 
 	font-size: 30px; 
@@ -978,4 +978,32 @@ figure.effect:hover p {
 	background-color: #c28aff;
 	text-decoration: none;
 	border-radius: 30px;
+}
+
+.arrow-link{
+	// font-size: 5vw;
+}
+
+.arrow-link a {
+	padding: 9px 18px;
+
+	font-family: "Montserrat", sans-serif;
+	font-size: 3vw;
+	color: white;
+
+	border: solid;
+	border-color: transparent;
+	border-width: 1px;
+	text-decoration: none;
+	transition: all 0.3s ease 0s;
+	border-radius: 50%;
+}
+
+.arrow-link a:hover {
+	color: #c28aff;
+	// font-weight: bold;
+	// border-color: #c28aff;
+	background-color: transparent;
+	text-decoration: none;
+	border-radius: 50%;
 }

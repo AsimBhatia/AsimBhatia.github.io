@@ -257,7 +257,7 @@ hr {
 
 .jumbotron .container {
   position: relative;
-  top: 28%;
+  top: 25%;
   z-index: 4;
   text-align: center;
 }
@@ -268,9 +268,9 @@ hr {
 }
 
 .jumbotron .container h1 {
-  padding-bottom: 20px;
-  border-bottom: 1px solid #FFFFFF;
-  border-bottom-color: rgba(255, 255, 255, 0.35);
+  padding-bottom: 25px;
+  border-bottom: 1px solid;
+  border-bottom-color: white;
   display: inline-block;
 }
 
@@ -283,9 +283,11 @@ hr {
   width: 110px;
   display: block;
   position: absolute;
-  bottom: 0px;
-  right: 5%;
-  background-color: #222222;
+  bottom: 5%;
+  left: 50%;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
+  background-color: transparent;
   text-align: center;
   z-index: 6;
 }
@@ -1469,5 +1471,26 @@ figure.effect:hover p {
   background-color: #c28aff;
   text-decoration: none;
   border-radius: 30px;
+}
+
+.arrow-link a {
+  padding: 9px 18px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 3vw;
+  color: white;
+  border: solid;
+  border-color: transparent;
+  border-width: 1px;
+  text-decoration: none;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  border-radius: 50%;
+}
+
+.arrow-link a:hover {
+  color: #c28aff;
+  background-color: transparent;
+  text-decoration: none;
+  border-radius: 50%;
 }
 /*# sourceMappingURL=style.css.map */
