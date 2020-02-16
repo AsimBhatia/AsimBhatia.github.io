@@ -345,96 +345,6 @@ hr { margin: 40px 0px; border-color: #727878; opacity: 0.2; filter:alpha(opacity
 
 
 
-@media (max-width: 1200px) { 
-	#interests .interest-content { padding: 20px 0px; }
-}
-
-@media (max-width: 767px) { 
-	.jumbotron:before {
-		bottom: 100px;
-		left: 20px;
-		right: 20px;
-		top: 20px;		
-	}
-	.jumbotron .container { top: 20%; padding-top: 0px; }
-	.jumbotron .scroll-down { width: 100%; right: 0px; }
-	
-	.navbar  { left: 0px; width: 100%; }
-	.navbar .nav > li { height: 60px; }
-	.navbar .nav > li a { height: 60px; text-align: center; padding-top: 20px; font-weight: 600; color: #FFFFFF; }
-	
-	.fixed .navbar { top: 0px; }
-	
-	.container { padding: 60px 20px; min-width: 280px; }
-	.hidden-phone { display: none; }
-	
-	#profile .row * { text-align: center; }
-	
-	#experiences .experience .experience-details > span { display: block; margin-bottom: 6px; }
-	#experiences .experience .experience-details .seperator { display: none; }
-	
-	#interests .left { float: none; }
-	#interests .right { float: none; }
-	
-	#interests > * { text-align: center; }
-	#interests img { width: 50%; height: auto; float: none !important; } 
-	#interests .interest-content { padding: 20px 0px; }
-	
-	#contact { padding-bottom: 60px; }
-	#contact a .icon { float: left; margin-right: 10px; }
-
-	.resume-link a {
-		font-size: 6px;
-		padding: 4.5px 9px;
-	}
-
-	.hamburger-menu {
-		width: 17.5px;
-		height: 15px;
-	}
-	
-	.change .line-1 {
-		transform: rotateZ(-405deg) translate(-4px, 3px);
-	}
-	
-	.change .line-3 {
-		transform: rotateZ(405deg) translate(-4px, -3px);
-	}
-
-	.navbarBar{
-		width: 50%;
-		right: -50%;
-	}
-
-	.jumbotron a img {
-		width: 25px;
-	} 
-// why does display: none; not work?
-	.words span {
-		visibility: hidden;
-		// display: none;
-	}
-
-	.wordAtt {
-		width: 0px;
-	}
-}    
-
-@media only screen and (orientation: portrait) and (max-width: 767px)  {
-    .jumbotron {
-      -webkit-background-size: auto 150%;
-      background-attachment: scroll;
-    }
-}
-@media only screen and (orientation: landscape) and (max-width: 767px)  {
-
-    .jumbotron {
-      -webkit-background-size: 150% auto;
-      background-attachment: scroll;
-    }
-	
-	.jumbotron .lead { display: none; }
-}
 
 @keyframes wiggle {
 	0% {
@@ -1063,4 +973,127 @@ figure.effect:hover p {
 	background-color: transparent;
 	text-decoration: none;
 	border-radius: 50%;
+}
+
+.typewriterText{
+	font-size: 1.5vw; 
+	text-align: center; 
+	margin-left: auto;
+	margin-right: auto; 
+	margin-top: 50px;
+}
+
+.titleText {
+	font-family: 'Montserrat', sans-serif; 
+	font-size: 8vw; 
+	text-transform: 
+	uppercase; 
+	font-weight: bold;
+}
+
+// @media queries
+
+
+@media (max-width: 1200px) { 
+	#interests .interest-content { padding: 20px 0px; }
+}
+
+@media (max-width: 767px) { 
+	.jumbotron:before {
+		bottom: 100px;
+		left: 20px;
+		right: 20px;
+		top: 20px;		
+	}
+	.jumbotron .container { top: 20%; padding-top: 0px;}
+	.jumbotron .scroll-down { width: 100%; right: 0px; }
+	
+	.navbar  { left: 0px; width: 100%; }
+	.navbar .nav > li { height: 60px; }
+	.navbar .nav > li a { height: 60px; text-align: center; padding-top: 20px; font-weight: 600; color: #FFFFFF; }
+	
+	.fixed .navbar { top: 0px; }
+	
+	.container { padding: 60px 20px; min-width: 280px; }
+	.hidden-phone { display: none; }
+	
+	#profile .row * { text-align: center; }
+	
+	#experiences .experience .experience-details > span { display: block; margin-bottom: 6px; }
+	#experiences .experience .experience-details .seperator { display: none; }
+	
+	#interests .left { float: none; }
+	#interests .right { float: none; }
+	
+	#interests > * { text-align: center; }
+	#interests img { width: 50%; height: auto; float: none !important; } 
+	#interests .interest-content { padding: 20px 0px; }
+	
+	#contact { padding-bottom: 60px; }
+	#contact a .icon { float: left; margin-right: 10px; }
+
+	.resume-link a {
+		font-size: 6px;
+		padding: 4.5px 9px;
+	}
+
+	.hamburger-menu {
+		width: 17.5px;
+		height: 15px;
+	}
+	
+	.change .line-1 {
+		transform: rotateZ(-405deg) translate(-4px, 3px);
+	}
+	
+	.change .line-3 {
+		transform: rotateZ(405deg) translate(-4px, -3px);
+	}
+
+	.navbarBar{
+		height: 100%;
+		background-color: #262626ef;
+		position: fixed;
+		top: 0;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		border-radius: 20% 0 0 60%;
+		transition: right 0.8s cubic-bezier(1,0,0,1);
+		width: 50%;
+		right: -50%;
+	}
+
+	.change {
+		right: 0;
+	}
+
+	.jumbotron a img {
+		width: 25px;
+	} 
+// why does display: none; not work?
+	.words span {
+		// visibility: hidden;
+		display: none;
+	}
+
+	.wordAtt {
+		width: 0px;
+	}
+}    
+
+@media only screen and (orientation: portrait) and (max-width: 767px)  {
+    .jumbotron {
+      -webkit-background-size: auto 150%;
+      background-attachment: scroll;
+    }
+}
+@media only screen and (orientation: landscape) and (max-width: 767px)  {
+
+    .jumbotron {
+      -webkit-background-size: 150% auto;
+      background-attachment: scroll;
+    }
+	
+	.jumbotron .lead { display: none; }
 }
