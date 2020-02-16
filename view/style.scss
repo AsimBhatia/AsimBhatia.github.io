@@ -1049,9 +1049,16 @@ figure.effect:hover p {
 		padding: 4.5px 9px;
 	}
 
+	.resume-link {
+		bottom: 20px;
+		right: 20px;
+	}
+
 	.hamburger-menu {
 		width: 17.5px;
 		height: 15px;
+		top: 25px;
+		right: 25px;
 	}
 	
 	.change .line-1 {
@@ -1082,6 +1089,7 @@ figure.effect:hover p {
 
 	.jumbotron a img {
 		width: 25px;
+		margin: 25px;
 	} 
 // why does display: none; not work?
 	.words span {

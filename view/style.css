@@ -1527,9 +1527,15 @@ figure.effect:hover p {
     font-size: 6px;
     padding: 4.5px 9px;
   }
+  .resume-link {
+    bottom: 20px;
+    right: 20px;
+  }
   .hamburger-menu {
     width: 17.5px;
     height: 15px;
+    top: 25px;
+    right: 25px;
   }
   .change .line-1 {
     -webkit-transform: rotateZ(-405deg) translate(-4px, 3px);
@@ -1564,6 +1570,7 @@ figure.effect:hover p {
   }
   .jumbotron a img {
     width: 25px;
+    margin: 25px;
   }
   .words span {
     display: none;
