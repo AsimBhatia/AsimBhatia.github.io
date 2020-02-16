@@ -383,7 +383,10 @@ hr { margin: 40px 0px; border-color: #727878; opacity: 0.2; filter:alpha(opacity
 	#contact { padding-bottom: 60px; }
 	#contact a .icon { float: left; margin-right: 10px; }
 
-	
+	.resume-link a {
+		font-size: 6px;
+		padding: 4.5px 9px;
+	}
 
 	.hamburger-menu {
 		width: 17.5px;
@@ -406,9 +409,10 @@ hr { margin: 40px 0px; border-color: #727878; opacity: 0.2; filter:alpha(opacity
 	.jumbotron a img {
 		width: 25px;
 	} 
-
+// why does display: none; not work?
 	.words span {
-		font-size: 0px;
+		visibility: hidden;
+		// display: none;
 	}
 
 	.wordAtt {

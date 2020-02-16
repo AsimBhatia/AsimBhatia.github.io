@@ -711,6 +711,10 @@ hr {
     float: left;
     margin-right: 10px;
   }
+  .resume-link a {
+    font-size: 6px;
+    padding: 4.5px 9px;
+  }
   .hamburger-menu {
     width: 17.5px;
     height: 15px;
@@ -731,7 +735,7 @@ hr {
     width: 25px;
   }
   .words span {
-    font-size: 0px;
+    visibility: hidden;
   }
   .wordAtt {
     width: 0px;
