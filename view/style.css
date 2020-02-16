@@ -1426,6 +1426,13 @@ figure.effect:hover p {
 
 .titleText {
   font-family: 'Montserrat', sans-serif;
+  font-size: 1vw;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.jumbotron .overlay .container h1 {
+  font-family: 'Montserrat', sans-serif;
   font-size: 8vw;
   text-transform: uppercase;
   font-weight: bold;
@@ -1451,6 +1458,12 @@ figure.effect:hover p {
   .jumbotron .scroll-down {
     width: 100%;
     right: 0px;
+  }
+  .jumbotron .overlay .container h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 11vw;
+    text-transform: uppercase;
+    font-weight: bold;
   }
   .navbar {
     left: 0px;
