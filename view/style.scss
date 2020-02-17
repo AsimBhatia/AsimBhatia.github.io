@@ -1102,18 +1102,18 @@ figure.effect:hover p {
 	}
 }    
 
-@media only screen and (orientation: portrait) and (max-width: 767px)  {
-    .jumbotron {
-      -webkit-background-size: auto 150%;
-      background-attachment: scroll;
-    }
-}
-@media only screen and (orientation: landscape) and (max-width: 767px)  {
+// @media only screen and (orientation: portrait) and (max-width: 767px)  {
+//     .jumbotron {
+//       -webkit-background-size: auto 150%;
+//       background-attachment: scroll;
+//     }
+// }
+// @media only screen and (orientation: landscape) and (max-width: 767px)  {
 
-    .jumbotron {
-      -webkit-background-size: 150% auto;
-      background-attachment: scroll;
-    }
+//     .jumbotron {
+//       -webkit-background-size: 150% auto;
+//       background-attachment: scroll;
+//     }
 	
-	.jumbotron .lead { display: none; }
-}
+// 	.jumbotron .lead { display: none; }
+// }
