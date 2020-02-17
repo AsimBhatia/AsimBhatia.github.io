@@ -1109,7 +1109,7 @@ figure.effect:hover p {
 @media only screen and (orientation: portrait) and (max-width: 767px)  {
     .jumbotron {
       -webkit-background-size: auto 150%;
-    //   background-attachment: scroll;
+      background-attachment: scroll;
 	}
 	
 	.projectBack {
@@ -1121,7 +1121,7 @@ figure.effect:hover p {
 
     .jumbotron {
       -webkit-background-size: 150% auto;
-    //   background-attachment: scroll;
+      background-attachment: scroll;
     }
 	
 	.jumbotron .lead { display: none; }
