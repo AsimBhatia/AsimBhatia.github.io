@@ -1589,7 +1589,16 @@ figure.effect:hover p {
     background-attachment: scroll;
   }
   .projectBack {
-    -webkit-background-size: auto 150%;
+    position: relative;
+    overflow: hidden;
+  }
+  .projectBack::before {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    position: fixed;
+    will-change: transform;
+    z-index: -1;
   }
 }
 
@@ -1602,7 +1611,16 @@ figure.effect:hover p {
     display: none;
   }
   .projectBack {
-    -webkit-background-size: auto 150%;
+    position: relative;
+    overflow: hidden;
+  }
+  .projectBack::before {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    position: fixed;
+    will-change: transform;
+    z-index: -1;
   }
 }
 /*# sourceMappingURL=style.css.map */

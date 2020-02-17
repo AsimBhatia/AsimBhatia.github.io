@@ -1112,10 +1112,23 @@ figure.effect:hover p {
       background-attachment: scroll;
 	}
 	
-	.projectBack {
-		-webkit-background-size: auto 150%;
-      	// background-attachment: scroll;
-	}
+	// .projectBack {
+	// 	-webkit-background-size: auto 150%;
+    //   	// background-attachment: scroll;
+	// }
+////////////////
+	.projectBack{
+		position: relative;
+		overflow: hidden;
+	  }
+	  .projectBack::before {
+		background-repeat: no-repeat;
+		background-position: center center;
+		background-size: cover;
+		position: fixed;
+		will-change: transform;
+		z-index: -1;
+	  }
 }
 @media only screen and (orientation: landscape) and (max-width: 767px)  {
 
@@ -1126,8 +1139,21 @@ figure.effect:hover p {
 	
 	.jumbotron .lead { display: none; }
 
-	.projectBack {
-		-webkit-background-size: auto 150%;
-      	// background-attachment: scroll;
-	}
+	// .projectBack {
+	// 	-webkit-background-size: auto 150%;
+    //   	// background-attachment: scroll;
+	// }
+
+	.projectBack{
+		position: relative;
+		overflow: hidden;
+	  }
+	  .projectBack::before {
+		background-repeat: no-repeat;
+		background-position: center center;
+		background-size: cover;
+		position: fixed;
+		will-change: transform;
+		z-index: -1;
+	  }
 }
