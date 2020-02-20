@@ -1765,7 +1765,7 @@ figure.effect:hover p {
   }
   #abilities .card {
     height: 250px;
-    width: 200px;
+    width: 160px;
     left: 50%;
     -webkit-transform: translate(-50%);
             transform: translate(-50%);
