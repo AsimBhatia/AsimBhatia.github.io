@@ -20,6 +20,8 @@
   "dependencies": {
     "node-github-pages": "^0.1.1",
     "node-sass": "^4.13.1",
-    "sal.js": "^0.7.2"
+    "sal.js": "^0.7.2",
+    "splitting": "^1.0.6",
+    "waypoints": "^4.0.1"
   }
 }

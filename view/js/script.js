@@ -1,4 +1,9 @@
- 
+const nav = document.querySelector('.nav');
+nav.addEventListener('click',(event) => {
+    nav.classList.toggle('open');
+});
+
+// Splitting();
 
 var lnStickyNavigation;
 
@@ -331,3 +336,19 @@ function erase(){
 document.addEventListener("DOMContentLoaded", function() {
 	if(textArray.length) setTimeout(type, newTextDelay + 250);
 });
+
+// $(document).ready(function() {
+// $('.progress-bar').waypoint(function() {
+// $('.progress-bar').css({ animation: "animate-positive 2s", opacity: "1"});}, 
+// { offset: '75%' });
+
+const element = document.querySelector('#abilities');
+
+element.addEventListener('sal:in', ({ detail }) => {
+	var circles = document.querySelectorAll(".canim");
+	for(var i = 0; i < circles.length; ++i) {
+		circles[i].classList.add("toggleClass");
+	}
+  console.log('entering', detail.target);
+});
+
