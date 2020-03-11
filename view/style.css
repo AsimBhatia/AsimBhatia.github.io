@@ -16,7 +16,7 @@
 .nav span {
   width: 100%;
   height: 2.5px;
-  background-color: #c28aff;
+  background-color: #3adbe0;
   display: block;
   position: fixed;
   border-radius: 2px;
@@ -373,8 +373,8 @@ h3 {
 .colorPrint {
   color: transparent;
   /* background-image: linear-gradient(to right , #f00,rgb(255, 123, 0),#ff0,#0f0,#0ff,#00f,rgb(204, 0, 255),rgb(255, 0, 200),#f00,rgb(255, 123, 0)); */
-  background-image: -webkit-gradient(linear, left top, right top, from(#c28aff), color-stop(#bf00ff), color-stop(#8400ff), color-stop(#4700c1), color-stop(#1900ff), color-stop(#008cff), color-stop(#00e5ff), color-stop(#c28aff), to(#bf00ff));
-  background-image: linear-gradient(to right, #c28aff, #bf00ff, #8400ff, #4700c1, #1900ff, #008cff, #00e5ff, #c28aff, #bf00ff);
+  background-image: -webkit-gradient(linear, left top, right top, from(#3adbe0), color-stop(#009dff), color-stop(#8400ff), color-stop(#1900ff), color-stop(#00a0a9), color-stop(#00ffae), color-stop(#3adbe0), to(#009dff));
+  background-image: linear-gradient(to right, #3adbe0, #009dff, #8400ff, #1900ff, #00a0a9, #00ffae, #3adbe0, #009dff);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   -webkit-animation: animate 8s linear infinite;
@@ -449,7 +449,7 @@ hr {
 }
 
 .btn-primary {
-  background-color: #c28aff;
+  background-color: #3adbe0;
   border-color: #a856ff;
 }
 
@@ -512,7 +512,7 @@ hr {
   opacity: 0.16;
   filter: alpha(opacity=16);
   z-index: 1;
-  background-color: #c28aff;
+  background-color: #3adbe0;
 }
 
 .jumbotron .overlay {
@@ -547,6 +547,15 @@ hr {
   background: linear-gradient(rgba(255, 255, 255, 0.6), rgba(0, 0, 0, 0.8));
 }
 
+.overlayGradientColorContact {
+  height: 100%;
+  width: 100%;
+  left: 0px;
+  right: 0px;
+  /* z-index: 2;  */
+  background: linear-gradient(135deg, rgba(90, 90, 90, 0.33) 0%, rgba(90, 90, 90, 0.33) 14.286%, rgba(77, 77, 77, 0.33) 14.286%, rgba(77, 77, 77, 0.33) 28.572%, rgba(64, 64, 64, 0.33) 28.572%, rgba(64, 64, 64, 0.33) 42.858%, rgba(51, 51, 51, 0.33) 42.858%, rgba(51, 51, 51, 0.33) 57.144%, rgba(38, 38, 38, 0.33) 57.144%, rgba(38, 38, 38, 0.33) 71.43%, rgba(25, 25, 25, 0.33) 71.43%, rgba(25, 25, 25, 0.33) 85.716%, rgba(12, 12, 12, 0.33) 85.716%, rgba(12, 12, 12, 0.33) 100.002%), linear-gradient(45deg, #0d0d0d 0%, #0d0d0d 14.286%, #151515 14.286%, #151515 28.572%, #1e1e1e 28.572%, #1e1e1e 42.858%, #262626 42.858%, #262626 57.144%, #2e2e2e 57.144%, #2e2e2e 71.43%, #373737 71.43%, #373737 85.716%, #3f3f3f 85.716%, #3f3f3f 100.002%);
+}
+
 .overlayGradientColor {
   /* background: no-repeat center right fixed; */
   height: 100%;
@@ -554,7 +563,7 @@ hr {
   left: 0px;
   right: 0px;
   /* z-index: 2;  */
-  background: linear-gradient(131deg, rgba(186, 186, 186, 0.01) 0%, rgba(186, 186, 186, 0.01) 16.667%, rgba(192, 192, 192, 0.01) 16.667%, rgba(192, 192, 192, 0.01) 33.334%, rgba(48, 48, 48, 0.01) 33.334%, rgba(48, 48, 48, 0.01) 50.001%, rgba(33, 33, 33, 0.01) 50.001%, rgba(33, 33, 33, 0.01) 66.668%, rgba(182, 182, 182, 0.01) 66.668%, rgba(182, 182, 182, 0.01) 83.335%, rgba(211, 211, 211, 0.01) 83.335%, rgba(211, 211, 211, 0.01) 100.002%), linear-gradient(148deg, rgba(48, 48, 48, 0.01) 0%, rgba(48, 48, 48, 0.01) 16.667%, rgba(178, 178, 178, 0.01) 16.667%, rgba(178, 178, 178, 0.01) 33.334%, rgba(192, 192, 192, 0.01) 33.334%, rgba(192, 192, 192, 0.01) 50.001%, rgba(237, 237, 237, 0.01) 50.001%, rgba(237, 237, 237, 0.01) 66.668%, rgba(194, 194, 194, 0.01) 66.668%, rgba(194, 194, 194, 0.01) 83.335%, rgba(227, 227, 227, 0.01) 83.335%, rgba(227, 227, 227, 0.01) 100.002%), linear-gradient(138deg, rgba(146, 146, 146, 0.03) 0%, rgba(146, 146, 146, 0.03) 25%, rgba(33, 33, 33, 0.03) 25%, rgba(33, 33, 33, 0.03) 50%, rgba(46, 46, 46, 0.03) 50%, rgba(46, 46, 46, 0.03) 75%, rgba(172, 172, 172, 0.03) 75%, rgba(172, 172, 172, 0.03) 100%), linear-gradient(38deg, rgba(3, 3, 3, 0.03) 0%, rgba(3, 3, 3, 0.03) 16.667%, rgba(28, 28, 28, 0.03) 16.667%, rgba(28, 28, 28, 0.03) 33.334%, rgba(236, 236, 236, 0.03) 33.334%, rgba(236, 236, 236, 0.03) 50.001%, rgba(3, 3, 3, 0.03) 50.001%, rgba(3, 3, 3, 0.03) 66.668%, rgba(207, 207, 207, 0.03) 66.668%, rgba(207, 207, 207, 0.03) 83.335%, rgba(183, 183, 183, 0.03) 83.335%, rgba(183, 183, 183, 0.03) 100.002%), linear-gradient(145deg, rgba(20, 20, 20, 0.02) 0%, rgba(20, 20, 20, 0.02) 20%, rgba(4, 4, 4, 0.02) 20%, rgba(4, 4, 4, 0.02) 40%, rgba(194, 194, 194, 0.02) 40%, rgba(194, 194, 194, 0.02) 60%, rgba(34, 34, 34, 0.02) 60%, rgba(34, 34, 34, 0.02) 80%, rgba(71, 71, 71, 0.02) 80%, rgba(71, 71, 71, 0.02) 100%), linear-gradient(78deg, rgba(190, 190, 190, 0.02) 0%, rgba(190, 190, 190, 0.02) 20%, rgba(95, 95, 95, 0.02) 20%, rgba(95, 95, 95, 0.02) 40%, rgba(71, 71, 71, 0.02) 40%, rgba(71, 71, 71, 0.02) 60%, rgba(7, 7, 7, 0.02) 60%, rgba(7, 7, 7, 0.02) 80%, rgba(130, 130, 130, 0.02) 80%, rgba(130, 130, 130, 0.02) 100%), linear-gradient(293deg, rgba(213, 213, 213, 0.03) 0%, rgba(213, 213, 213, 0.03) 20%, rgba(220, 220, 220, 0.03) 20%, rgba(220, 220, 220, 0.03) 40%, rgba(146, 146, 146, 0.03) 40%, rgba(146, 146, 146, 0.03) 60%, rgba(57, 57, 57, 0.03) 60%, rgba(57, 57, 57, 0.03) 80%, rgba(120, 120, 120, 0.03) 80%, rgba(120, 120, 120, 0.03) 100%), linear-gradient(90deg, #e46dff, #7d26ff);
+  background: linear-gradient(131deg, rgba(186, 186, 186, 0.01) 0%, rgba(186, 186, 186, 0.01) 16.667%, rgba(192, 192, 192, 0.01) 16.667%, rgba(192, 192, 192, 0.01) 33.334%, rgba(48, 48, 48, 0.01) 33.334%, rgba(48, 48, 48, 0.01) 50.001%, rgba(33, 33, 33, 0.01) 50.001%, rgba(33, 33, 33, 0.01) 66.668%, rgba(182, 182, 182, 0.01) 66.668%, rgba(182, 182, 182, 0.01) 83.335%, rgba(211, 211, 211, 0.01) 83.335%, rgba(211, 211, 211, 0.01) 100.002%), linear-gradient(148deg, rgba(48, 48, 48, 0.01) 0%, rgba(48, 48, 48, 0.01) 16.667%, rgba(178, 178, 178, 0.01) 16.667%, rgba(178, 178, 178, 0.01) 33.334%, rgba(192, 192, 192, 0.01) 33.334%, rgba(192, 192, 192, 0.01) 50.001%, rgba(237, 237, 237, 0.01) 50.001%, rgba(237, 237, 237, 0.01) 66.668%, rgba(194, 194, 194, 0.01) 66.668%, rgba(194, 194, 194, 0.01) 83.335%, rgba(227, 227, 227, 0.01) 83.335%, rgba(227, 227, 227, 0.01) 100.002%), linear-gradient(138deg, rgba(146, 146, 146, 0.03) 0%, rgba(146, 146, 146, 0.03) 25%, rgba(33, 33, 33, 0.03) 25%, rgba(33, 33, 33, 0.03) 50%, rgba(46, 46, 46, 0.03) 50%, rgba(46, 46, 46, 0.03) 75%, rgba(172, 172, 172, 0.03) 75%, rgba(172, 172, 172, 0.03) 100%), linear-gradient(38deg, rgba(3, 3, 3, 0.03) 0%, rgba(3, 3, 3, 0.03) 16.667%, rgba(28, 28, 28, 0.03) 16.667%, rgba(28, 28, 28, 0.03) 33.334%, rgba(236, 236, 236, 0.03) 33.334%, rgba(236, 236, 236, 0.03) 50.001%, rgba(3, 3, 3, 0.03) 50.001%, rgba(3, 3, 3, 0.03) 66.668%, rgba(207, 207, 207, 0.03) 66.668%, rgba(207, 207, 207, 0.03) 83.335%, rgba(183, 183, 183, 0.03) 83.335%, rgba(183, 183, 183, 0.03) 100.002%), linear-gradient(145deg, rgba(20, 20, 20, 0.02) 0%, rgba(20, 20, 20, 0.02) 20%, rgba(4, 4, 4, 0.02) 20%, rgba(4, 4, 4, 0.02) 40%, rgba(194, 194, 194, 0.02) 40%, rgba(194, 194, 194, 0.02) 60%, rgba(34, 34, 34, 0.02) 60%, rgba(34, 34, 34, 0.02) 80%, rgba(71, 71, 71, 0.02) 80%, rgba(71, 71, 71, 0.02) 100%), linear-gradient(78deg, rgba(190, 190, 190, 0.02) 0%, rgba(190, 190, 190, 0.02) 20%, rgba(95, 95, 95, 0.02) 20%, rgba(95, 95, 95, 0.02) 40%, rgba(71, 71, 71, 0.02) 40%, rgba(71, 71, 71, 0.02) 60%, rgba(7, 7, 7, 0.02) 60%, rgba(7, 7, 7, 0.02) 80%, rgba(130, 130, 130, 0.02) 80%, rgba(130, 130, 130, 0.02) 100%), linear-gradient(293deg, rgba(213, 213, 213, 0.03) 0%, rgba(213, 213, 213, 0.03) 20%, rgba(220, 220, 220, 0.03) 20%, rgba(220, 220, 220, 0.03) 40%, rgba(146, 146, 146, 0.03) 40%, rgba(146, 146, 146, 0.03) 60%, rgba(57, 57, 57, 0.03) 60%, rgba(57, 57, 57, 0.03) 80%, rgba(120, 120, 120, 0.03) 80%, rgba(120, 120, 120, 0.03) 100%), linear-gradient(90deg, #6ddaff, #20a582);
 }
 
 .jumbotron .container {
@@ -730,7 +739,7 @@ hr {
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
-  background: #c28aff;
+  background: #3adbe0;
   color: #ffffff;
 }
 
@@ -806,7 +815,7 @@ hr {
 }
 
 #experiences .experience .experience-details * {
-  color: #c28aff;
+  color: #3adbe0;
 }
 
 #experiences .experience .experience-details .seperator {
@@ -844,7 +853,7 @@ hr {
 }
 
 #abilities ul > li .ability-score .glyphicon.filled {
-  color: #c28aff;
+  color: #3adbe0;
 }
 
 #abilities ul > li:hover .ability-score .glyphicon {
@@ -1275,7 +1284,7 @@ hr {
 }
 
 #projects figure .icon {
-  background: #c28aff;
+  background: #3adbe0;
   position: absolute;
   top: 0px;
   right: 0px;
@@ -1356,7 +1365,7 @@ hr {
 /***** EFFECT *****/
 /*---------------*/
 figure.effect {
-  background: #c28aff;
+  background: #3adbe0;
   color: #fff;
 }
 
@@ -1790,7 +1799,7 @@ figure.effect:hover p {
 .line {
   width: 100%;
   height: 3px;
-  background-color: #c28aff;
+  background-color: #3adbe0;
   -webkit-transition: all 0.8s;
   transition: all 0.8s;
 }
@@ -1830,7 +1839,7 @@ figure.effect:hover p {
 }
 
 .ul li a:focus {
-  color: #c28aff;
+  color: #3adbe0;
   text-decoration: none;
 }
 
@@ -1839,7 +1848,7 @@ figure.effect:hover p {
   content: "";
   width: 100%;
   height: 2px;
-  background-color: #c28aff;
+  background-color: #3adbe0;
   position: absolute;
   left: 0;
   -webkit-transform: scaleX(0);
@@ -1961,7 +1970,7 @@ figure.effect:hover p {
   width: 30px;
   height: 30px;
   position: relative;
-  border: 4px solid #c28aff;
+  border: 4px solid #3adbe0;
   -webkit-animation: loader 2s infinite ease;
           animation: loader 2s infinite ease;
 }
@@ -1970,7 +1979,7 @@ figure.effect:hover p {
   vertical-align: top;
   display: inline-block;
   width: 100%;
-  background-color: #c28aff;
+  background-color: #3adbe0;
   -webkit-animation: loader-inner 2s infinite ease-in;
           animation: loader-inner 2s infinite ease-in;
 }
@@ -2084,8 +2093,8 @@ figure.effect:hover p {
 .resume-link a:hover {
   color: black;
   font-weight: bold;
-  border-color: #c28aff;
-  background-color: #c28aff;
+  border-color: #3adbe0;
+  background-color: #3adbe0;
   text-decoration: none;
   border-radius: 30px;
 }
@@ -2105,7 +2114,7 @@ figure.effect:hover p {
 }
 
 .arrow-link a:hover {
-  color: #c28aff;
+  color: #3adbe0;
   background-color: transparent;
   text-decoration: none;
   border-radius: 50%;
@@ -2310,7 +2319,7 @@ figure.effect:hover p {
   .nav span {
     width: 100%;
     height: 2px;
-    background-color: #c28aff;
+    background-color: #3adbe0;
     display: block;
     position: fixed;
     border-radius: 1px;

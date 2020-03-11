@@ -1,4 +1,4 @@
-
+//c28aff
 // .wrapper{
 //   width:30px;
 //   height:30px;
@@ -23,7 +23,7 @@
 .nav span{
   width:100%;
   height:2.5px;
-  background-color:#c28aff;
+  background-color:#3adbe0;
   display:block;
   position: fixed;
   border-radius: 2px;
@@ -236,18 +236,31 @@ h3 {
 .colorPrint {
   color: transparent;
   /* background-image: linear-gradient(to right , #f00,rgb(255, 123, 0),#ff0,#0f0,#0ff,#00f,rgb(204, 0, 255),rgb(255, 0, 200),#f00,rgb(255, 123, 0)); */
+  // background-image: linear-gradient(
+  //   to right,
+  //   #3adbe0,
+  //   #bf00ff,
+  //   #8400ff,
+  //   #4700c1,
+  //   #1900ff,
+  //   #008cff,
+  //   #00e5ff,
+  //   #3adbe0,
+  //   #bf00ff
+  // );
+
   background-image: linear-gradient(
     to right,
-    #c28aff,
-    #bf00ff,
+    #3adbe0,
+    #009dff,
     #8400ff,
-    #4700c1,
     #1900ff,
-    #008cff,
-    #00e5ff,
-    #c28aff,
-    #bf00ff
+    rgb(0, 160, 169),
+    #00ffae,
+    #3adbe0,
+    #009dff
   );
+
   -webkit-background-clip: text;
 
   -webkit-text-fill-color: transparent;
@@ -303,7 +316,7 @@ hr {
 }
 
 .btn-primary {
-  background-color: #c28aff;
+  background-color: #3adbe0;
   border-color: #a856ff;
 }
 .btn-primary:hover {
@@ -381,7 +394,7 @@ hr {
   opacity: 0.16;
   filter: alpha(opacity=16);
   z-index: 1;
-  background-color: #c28aff;
+  background-color: #3adbe0;
 }
 .jumbotron .overlay {
   height: 100%;
@@ -411,6 +424,16 @@ hr {
   right: 0px;
   /* z-index: 2;  */
   background: linear-gradient(rgba(255, 255, 255, 0.6), rgba(0, 0, 0, 0.8));
+}
+
+.overlayGradientColorContact {
+  height: 100%;
+  width: 100%;
+  left: 0px;
+  right: 0px;
+  /* z-index: 2;  */
+  // background-attachment: fixed;
+  background: linear-gradient(135deg, rgba(90, 90, 90, 0.33) 0%, rgba(90, 90, 90, 0.33) 14.286%,rgba(77, 77, 77, 0.33) 14.286%, rgba(77, 77, 77, 0.33) 28.572%,rgba(64, 64, 64, 0.33) 28.572%, rgba(64, 64, 64, 0.33) 42.858%,rgba(51, 51, 51, 0.33) 42.858%, rgba(51, 51, 51, 0.33) 57.144%,rgba(38, 38, 38, 0.33) 57.144%, rgba(38, 38, 38, 0.33) 71.43%,rgba(25, 25, 25, 0.33) 71.43%, rgba(25, 25, 25, 0.33) 85.716%,rgba(12, 12, 12, 0.33) 85.716%, rgba(12, 12, 12, 0.33) 100.002%),linear-gradient(45deg, rgb(13, 13, 13) 0%, rgb(13, 13, 13) 14.286%,rgb(21, 21, 21) 14.286%, rgb(21, 21, 21) 28.572%,rgb(30, 30, 30) 28.572%, rgb(30, 30, 30) 42.858%,rgb(38, 38, 38) 42.858%, rgb(38, 38, 38) 57.144%,rgb(46, 46, 46) 57.144%, rgb(46, 46, 46) 71.43%,rgb(55, 55, 55) 71.43%, rgb(55, 55, 55) 85.716%,rgb(63, 63, 63) 85.716%, rgb(63, 63, 63) 100.002%);
 }
 
 .overlayGradientColor {
@@ -516,7 +539,8 @@ hr {
       rgba(120, 120, 120, 0.03) 80%,
       rgba(120, 120, 120, 0.03) 100%
     ),
-    linear-gradient(90deg, rgb(228, 109, 255), rgb(125, 38, 255));
+    linear-gradient(90deg, rgb(109, 218, 255), rgb(32, 165, 130));
+    // linear-gradient(90deg, rgb(228, 109, 255), rgb(125, 38, 255));
 }
 
 .jumbotron .container {
@@ -673,7 +697,7 @@ hr {
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
-  background: #c28aff;
+  background: #3adbe0;
   color: #ffffff;
 }
 .navbar-default .navbar-toggle:hover .icon-bar,
@@ -838,7 +862,7 @@ hr {
   margin-top: 6px;
 }
 #experiences .experience .experience-details * {
-  color: #c28aff;
+  color: #3adbe0;
 }
 #experiences .experience .experience-details .seperator {
   color: #bcbcbc;
@@ -874,7 +898,7 @@ hr {
 }
 
 #abilities ul > li .ability-score .glyphicon.filled {
-  color: #c28aff;
+  color: #3adbe0;
 }
 
 #abilities ul > li:hover .ability-score .glyphicon {
@@ -1309,7 +1333,7 @@ hr {
   width: 100%;
 }
 #projects figure .icon {
-  background: #c28aff;
+  background: #3adbe0;
   position: absolute;
   top: 0px;
   right: 0px;
@@ -1377,7 +1401,7 @@ hr {
 /*---------------*/
 
 figure.effect {
-  background: #c28aff;
+  background: #3adbe0;
   color: #fff;
 }
 
@@ -1762,7 +1786,7 @@ figure.effect:hover p {
 .line {
   width: 100%;
   height: 3px;
-  background-color: #c28aff;
+  background-color: #3adbe0;
   transition: all 0.8s;
 }
 
@@ -1799,7 +1823,7 @@ figure.effect:hover p {
 }
 
 .ul li a:focus {
-  color: #c28aff;
+  color: #3adbe0;
   text-decoration: none;
 }
 
@@ -1808,7 +1832,7 @@ figure.effect:hover p {
   content: "";
   width: 100%;
   height: 2px;
-  background-color: #c28aff;
+  background-color: #3adbe0;
   position: absolute;
   left: 0;
   transform: scaleX(0);
@@ -1898,14 +1922,14 @@ figure.effect:hover p {
   width: 30px;
   height: 30px;
   position: relative;
-  border: 4px solid #c28aff;
+  border: 4px solid #3adbe0;
   animation: loader 2s infinite ease;
 }
 .loader-inner {
   vertical-align: top;
   display: inline-block;
   width: 100%;
-  background-color: #c28aff;
+  background-color: #3adbe0;
   animation: loader-inner 2s infinite ease-in;
 }
 @keyframes loader {
@@ -1972,8 +1996,8 @@ figure.effect:hover p {
 .resume-link a:hover {
   color: rgb(0, 0, 0);
   font-weight: bold;
-  border-color: #c28aff;
-  background-color: #c28aff;
+  border-color: #3adbe0;
+  background-color: #3adbe0;
   text-decoration: none;
   border-radius: 30px;
 }
@@ -1998,9 +2022,9 @@ figure.effect:hover p {
 }
 
 .arrow-link a:hover {
-  color: #c28aff;
+  color: #3adbe0;
   // font-weight: bold;
-  // border-color: #c28aff;
+  // border-color: #3adbe0;
   background-color: transparent;
   text-decoration: none;
   border-radius: 50%;
@@ -2246,7 +2270,7 @@ figure.effect:hover p {
   .nav span{
     width:100%;
     height:2px;
-    background-color:#c28aff;
+    background-color:#3adbe0;
     display:block;
     position: fixed;
     border-radius: 1px;
