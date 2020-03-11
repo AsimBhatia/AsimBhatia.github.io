@@ -2389,27 +2389,27 @@ figure.effect:hover p {
 
 @media only screen and (orientation: portrait) and (max-width: 767px) {
   .jumbotron {
-    -webkit-background-size: auto 150%;
+    -webkit-background-size: auto 100%;
     background-attachment: scroll;
   }
 
-  // .projectBack {
-  // 	-webkit-background-size: auto 150%;
-  //   	// background-attachment: scroll;
-  // }
-  ////////////////
   .projectBack {
-    position: relative;
-    overflow: hidden;
+  	-webkit-background-size: auto 100%;
+    	background-attachment: scroll;
   }
-  .projectBack::before {
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    position: fixed;
-    will-change: transform;
-    z-index: -1;
-  }
+  ////////////////
+  // .projectBack {
+  //   position: relative;
+  //   overflow: hidden;
+  // }
+  // .projectBack::before {
+  //   background-repeat: no-repeat;
+  //   background-position: center center;
+  //   background-size: cover;
+  //   position: scroll;
+  //   will-change: transform;
+  //   z-index: -1;
+  // }
 }
 @media only screen and (orientation: landscape) and (max-width: 767px) {
   .jumbotron {
@@ -2434,7 +2434,7 @@ figure.effect:hover p {
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    position: fixed;
+    position: scroll;
     will-change: transform;
     z-index: -1;
   }
