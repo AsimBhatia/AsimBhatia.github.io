@@ -5,6 +5,8 @@
 
 #name {
   width: 70vw;
+  -webkit-animation: fillUp 0.5s ease forwards 6s;
+          animation: fillUp 0.5s ease forwards 6s;
 }
 
 #name path:nth-child(2) {
@@ -31,8 +33,8 @@
 #name path:nth-child(5) {
   stroke-dasharray: 563;
   stroke-dashoffset: 563;
-  -webkit-animation: line-animM 3s ease forwards 2.5s;
-          animation: line-animM 3s ease forwards 2.5s;
+  -webkit-animation: line-anim 3s ease forwards 2.5s;
+          animation: line-anim 3s ease forwards 2.5s;
 }
 
 #name path:nth-child(6) {
@@ -57,8 +59,8 @@
 }
 
 #name path:nth-child(9) {
-  stroke-dasharray: 282;
-  stroke-dashoffset: 282;
+  stroke-dasharray: 285;
+  stroke-dashoffset: 285;
   -webkit-animation: line-anim 3s ease forwards 4.5s;
           animation: line-anim 3s ease forwards 4.5s;
 }
@@ -73,8 +75,8 @@
 #name path:nth-child(11) {
   stroke-dasharray: 410;
   stroke-dashoffset: 410;
-  -webkit-animation: line-anim 3s ease forwards 3.7s;
-          animation: line-anim 3s ease forwards 3.7s;
+  -webkit-animation: line-anim 3s ease forwards 5.5s;
+          animation: line-anim 3s ease forwards 5.5s;
 }
 
 @-webkit-keyframes line-anim {
@@ -89,21 +91,21 @@
   }
 }
 
-@-webkit-keyframes line-animM {
-  0% {
-    stroke-dashoffset: calc(563px);
+@-webkit-keyframes fillUp {
+  from {
+    fill: transparent;
   }
-  100% {
-    stroke-dashoffset: calc(563px - (563px * 100) / 100);
+  to {
+    fill: #3adbe0;
   }
 }
 
-@keyframes line-animM {
-  0% {
-    stroke-dashoffset: calc(563px);
+@keyframes fillUp {
+  from {
+    fill: transparent;
   }
-  100% {
-    stroke-dashoffset: calc(563px - (563px * 100) / 100);
+  to {
+    fill: #3adbe0;
   }
 }
 
