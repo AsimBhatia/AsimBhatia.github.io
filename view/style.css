@@ -459,7 +459,7 @@ h3 {
   /* background-image: linear-gradient(to right , #f00,rgb(255, 123, 0),#ff0,#0f0,#0ff,#00f,rgb(204, 0, 255),rgb(255, 0, 200),#f00,rgb(255, 123, 0)); */
   -webkit-text-fill-color: transparent;
   -webkit-text-stroke-color: #3adbe0;
-  -webkit-text-stroke-width: 0.000001px;
+  -webkit-text-stroke-width: 1px;
 }
 
 p.lead {
