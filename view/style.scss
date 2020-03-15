@@ -17,64 +17,64 @@
 #name {
   width: 70vw;
   stroke-linecap: square;
-  animation: fillUp 0.5s ease forwards 6s;
+  animation: fillUp 0.5s ease forwards 8s;
 }
 
-#name path:nth-child(2){
+#name path:nth-child(1){
   stroke-dasharray: 410;
   stroke-dashoffset: 410;
   animation: line-anim 3s ease forwards 1s;
 }
 
-#name path:nth-child(3){
+#name path:nth-child(2){
   stroke-dasharray: 386.9;
   stroke-dashoffset: 386.9;
   animation: line-anim 3s ease forwards 1.5s;
 }
 
-#name path:nth-child(4){
+#name path:nth-child(3){
   stroke-dasharray: 172;
   stroke-dashoffset: 172;
   animation: line-anim 3s ease forwards 2s;
 }
 
-#name path:nth-child(5){
+#name path:nth-child(4){
   stroke-dasharray: 563;
   stroke-dashoffset: 563;
   animation: line-anim 3s ease forwards 2.5s;
 }
 
-#name path:nth-child(6){
+#name path:nth-child(5){
   stroke-dasharray: 545.8;
   stroke-dashoffset: 545.8;
   animation: line-anim 3s ease forwards 3s;
 }
 
-#name path:nth-child(7){
+#name path:nth-child(6){
   stroke-dasharray: 424;
   stroke-dashoffset: 424;
   animation: line-anim 3s ease forwards 3.5s;
 }
 
-#name path:nth-child(8){
+#name path:nth-child(7){
   stroke-dasharray: 410;
   stroke-dashoffset: 410;
   animation: line-anim 3s ease forwards 4s;
 }
 
-#name path:nth-child(9){
+#name path:nth-child(8){
   stroke-dasharray: 285;
   stroke-dashoffset: 285;
   animation: line-anim 3s ease forwards 4.5s;
 }
 
-#name path:nth-child(10){
+#name path:nth-child(9){
   stroke-dasharray: 172;
   stroke-dashoffset: 172;
   animation: line-anim 3s ease forwards 5s;
 }
 
-#name path:nth-child(11){
+#name path:nth-child(10){
   stroke-dasharray: 410;
   stroke-dashoffset: 410;
   animation: line-anim 3s ease forwards 5.5s;
