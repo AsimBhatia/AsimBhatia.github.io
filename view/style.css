@@ -1,3 +1,87 @@
+.tracking-in-expand {
+  -webkit-animation: tracking-in-expand 3s cubic-bezier(0.215, 0.61, 0.355, 1) both;
+  animation: tracking-in-expand 3s cubic-bezier(0.215, 0.61, 0.355, 1) both;
+}
+
+/**
+ * ----------------------------------------
+ * animation tracking-in-expand
+ * ----------------------------------------
+ */
+@-webkit-keyframes tracking-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes tracking-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.text-focus-in {
+  -webkit-animation: text-focus-in 4s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
+  animation: text-focus-in 4s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
+}
+
+/**
+ * ----------------------------------------
+ * animation text-focus-in
+ * ----------------------------------------
+ */
+@-webkit-keyframes text-focus-in {
+  0% {
+    -webkit-filter: blur(12px);
+    filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-filter: blur(0px);
+    filter: blur(0px);
+    opacity: 1;
+  }
+}
+
+@keyframes text-focus-in {
+  0% {
+    -webkit-filter: blur(12px);
+    filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-filter: blur(0px);
+    filter: blur(0px);
+    opacity: 1;
+  }
+}
+
+canvas {
+  z-index: 5;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+}
+
 .nav {
   width: 32px;
   height: 32px;
@@ -371,45 +455,11 @@ h3 {
 	font-size: 55px; 
 } */
 .colorPrint {
-  color: transparent;
+  color: blue;
   /* background-image: linear-gradient(to right , #f00,rgb(255, 123, 0),#ff0,#0f0,#0ff,#00f,rgb(204, 0, 255),rgb(255, 0, 200),#f00,rgb(255, 123, 0)); */
-  background-image: -webkit-gradient(linear, left top, right top, from(#3adbe0), color-stop(#009dff), color-stop(#8400ff), color-stop(#1900ff), color-stop(#00a0a9), color-stop(#00ffae), color-stop(#3adbe0), to(#009dff));
-  background-image: linear-gradient(to right, #3adbe0, #009dff, #8400ff, #1900ff, #00a0a9, #00ffae, #3adbe0, #009dff);
-  -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  -webkit-animation: animate 8s linear infinite;
-          animation: animate 8s linear infinite;
-  background-size: 1000%;
-  /* position: absolute;
-	left: 50%;
-	right:50%;
-	top:50%; */
-}
-
-@-webkit-keyframes animate {
-  0% {
-    background-position: 0% 100%;
-  }
-  /* 50%
-	{
-		background-position: 100% 0%;
-	} */
-  100% {
-    background-position: 100% 0%;
-  }
-}
-
-@keyframes animate {
-  0% {
-    background-position: 0% 100%;
-  }
-  /* 50%
-	{
-		background-position: 100% 0%;
-	} */
-  100% {
-    background-position: 100% 0%;
-  }
+  -webkit-text-stroke-color: #3adbe0;
+  -webkit-text-stroke-width: 0.000001px;
 }
 
 p.lead {
@@ -482,18 +532,16 @@ hr {
 }
 
 .jumbotron {
-  background: no-repeat center right fixed url(images/background.gif);
+  background: no-repeat center right fixed linear-gradient(116deg, rgba(232, 232, 232, 0.03) 0%, rgba(232, 232, 232, 0.03) 10%, rgba(14, 14, 14, 0.03) 10%, rgba(14, 14, 14, 0.03) 66%, rgba(232, 232, 232, 0.03) 66%, rgba(232, 232, 232, 0.03) 72%, rgba(44, 44, 44, 0.03) 72%, rgba(44, 44, 44, 0.03) 81%, rgba(51, 51, 51, 0.03) 81%, rgba(51, 51, 51, 0.03) 100%), linear-gradient(109deg, rgba(155, 155, 155, 0.03) 0%, rgba(155, 155, 155, 0.03) 23%, rgba(30, 30, 30, 0.03) 23%, rgba(30, 30, 30, 0.03) 63%, rgba(124, 124, 124, 0.03) 63%, rgba(124, 124, 124, 0.03) 73%, rgba(195, 195, 195, 0.03) 73%, rgba(195, 195, 195, 0.03) 84%, rgba(187, 187, 187, 0.03) 84%, rgba(187, 187, 187, 0.03) 100%), linear-gradient(79deg, rgba(254, 254, 254, 0.03) 0%, rgba(254, 254, 254, 0.03) 27%, rgba(180, 180, 180, 0.03) 27%, rgba(180, 180, 180, 0.03) 33%, rgba(167, 167, 167, 0.03) 33%, rgba(167, 167, 167, 0.03) 34%, rgba(68, 68, 68, 0.03) 34%, rgba(68, 68, 68, 0.03) 63%, rgba(171, 171, 171, 0.03) 63%, rgba(171, 171, 171, 0.03) 100%), linear-gradient(109deg, rgba(71, 71, 71, 0.03) 0%, rgba(71, 71, 71, 0.03) 3%, rgba(97, 97, 97, 0.03) 3%, rgba(97, 97, 97, 0.03) 40%, rgba(40, 40, 40, 0.03) 40%, rgba(40, 40, 40, 0.03) 55%, rgba(5, 5, 5, 0.03) 55%, rgba(5, 5, 5, 0.03) 73%, rgba(242, 242, 242, 0.03) 73%, rgba(242, 242, 242, 0.03) 100%), linear-gradient(271deg, rgba(70, 70, 70, 0.03) 0%, rgba(70, 70, 70, 0.03) 11%, rgba(178, 178, 178, 0.03) 11%, rgba(178, 178, 178, 0.03) 23%, rgba(28, 28, 28, 0.03) 23%, rgba(28, 28, 28, 0.03) 72%, rgba(152, 152, 152, 0.03) 72%, rgba(152, 152, 152, 0.03) 86%, rgba(43, 43, 43, 0.03) 86%, rgba(43, 43, 43, 0.03) 100%), linear-gradient(90deg, #1b1b1b, #010101);
   background-size: 100%;
   height: 100%;
   background-size: cover;
-  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/background.gif', sizingMethod='scale')";
-  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/background.gif', sizingMethod='scale');
   margin-bottom: 0px;
   padding: 0px;
 }
 
 .projectBack {
-  background: no-repeat center right fixed url(images/graySquares.jpg);
+  background: no-repeat center right fixed linear-gradient(0deg, rgba(37, 168, 114, 0.2) 0%, rgba(37, 168, 114, 0.2) 16.667%, rgba(26, 125, 88, 0.2) 16.667%, rgba(26, 125, 88, 0.2) 33.334%, rgba(47, 211, 141, 0.2) 33.334%, rgba(47, 211, 141, 0.2) 50.001%, rgba(16, 82, 61, 0.2) 50.001%, rgba(16, 82, 61, 0.2) 66.668%, rgba(6, 39, 35, 0.2) 66.668%, rgba(6, 39, 35, 0.2) 83.335%, rgba(57, 254, 167, 0.2) 83.335%, rgba(57, 254, 167, 0.2) 100.002%), linear-gradient(135deg, rgba(37, 168, 114, 0.2) 0%, rgba(37, 168, 114, 0.2) 16.667%, rgba(26, 125, 88, 0.2) 16.667%, rgba(26, 125, 88, 0.2) 33.334%, rgba(47, 211, 141, 0.2) 33.334%, rgba(47, 211, 141, 0.2) 50.001%, rgba(16, 82, 61, 0.2) 50.001%, rgba(16, 82, 61, 0.2) 66.668%, rgba(6, 39, 35, 0.2) 66.668%, rgba(6, 39, 35, 0.2) 83.335%, rgba(57, 254, 167, 0.2) 83.335%, rgba(57, 254, 167, 0.2) 100.002%), linear-gradient(0deg, rgba(37, 168, 114, 0.2) 0%, rgba(37, 168, 114, 0.2) 16.667%, rgba(26, 125, 88, 0.2) 16.667%, rgba(26, 125, 88, 0.2) 33.334%, rgba(47, 211, 141, 0.2) 33.334%, rgba(47, 211, 141, 0.2) 50.001%, rgba(16, 82, 61, 0.2) 50.001%, rgba(16, 82, 61, 0.2) 66.668%, rgba(6, 39, 35, 0.2) 66.668%, rgba(6, 39, 35, 0.2) 83.335%, rgba(57, 254, 167, 0.2) 83.335%, rgba(57, 254, 167, 0.2) 100.002%), linear-gradient(90deg, #00ffa6, #7300ff);
   background-size: 100%;
   height: 100%;
   background-size: cover;
@@ -519,32 +567,6 @@ hr {
   height: 100%;
   left: 0px;
   right: 0px;
-  opacity: 0.97;
-  filter: alpha(opacity=97);
-  z-index: 2;
-  background-color: #1a1a1a;
-}
-
-/* .overlayGradient 
-{  
-	//background: no-repeat center right fixed;
-	height: 100%; 
-	width: 100%;
-	left: 0px; 
-	right: 0px; 
-	//z-index: 2; 
-	background: linear-gradient(rgba(255, 255, 255, 0.6),rgba(0, 0, 0, 0.6)),url(images/graySquares.jpg);
-	
-} */
-.overlayGradient {
-  /* background: no-repeat center right fixed; */
-  height: 100%;
-  width: 100%;
-  left: 0px;
-  right: 0px;
-  /* z-index: 2;  */
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.6)), to(rgba(0, 0, 0, 0.8)));
-  background: linear-gradient(rgba(255, 255, 255, 0.6), rgba(0, 0, 0, 0.8));
 }
 
 .overlayGradientColorContact {
@@ -580,8 +602,6 @@ hr {
 
 .jumbotron .container h1 {
   padding-bottom: 25px;
-  border-bottom: 1px solid;
-  border-bottom-color: white;
   display: inline-block;
 }
 
@@ -2553,6 +2573,9 @@ figure.effect:hover p {
       -webkit-transform: rotate(0deg) translate(0, 0);
               transform: rotate(0deg) translate(0, 0);
     }
+  }
+  #c {
+    visibility: hidden;
   }
 }
 

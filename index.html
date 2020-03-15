@@ -218,7 +218,7 @@
 
 
 	<div id="top" class="jumbotron" data-src="/view/images/metro_animation.gif" data-position="center right">
-				<a href="https://asimbhatia.me/"><img src="view/images/logoABWhiteTransparent.png"></a>
+				<a href="https://asimbhatia.me/"><img style="z-index: 100;" src="view/images/logoABWhiteTransparent.png"></a>
 				<!-- <div class="topShadow"></div>
 				<div class="leftShadow"></div>
 				<div class="rightShadow"></div> -->
@@ -230,8 +230,9 @@
 				<!-- transform: translateX(-50%); -->
 		<div class="overlay">
 			<div class="container" data-sal-duration="1600" data-sal="fade" data-sal-delay="300"
-				data-sal-easing="ease-in-bounce" style="font-family: 'Montserrat', sans-serif;">
-				<h1 class="colorPrint">Asim Bhatia</h1>
+				data-sal-easing="ease-in-bounce" style="font-family: 'Montserrat', sans-serif;" style="opacity: 1;
+				filter: alpha(opacity=100);"> <!-- added these two things -->
+				<h1 class="colorPrint tracking-in-expand">Asim Bhatia</h1>
 				<!-- <h1 class="colorPrint titleText">Asim Bhatia</h1> -->
 
 				<!-- <p style=" padding-top: 50px;">//<span id="cursor" class="text-monospace textstyle" style="font-size: 1.7vw;"></span></p> -->
@@ -246,7 +247,7 @@
 		<!-- //this is the ovelay for background.gif -->
 		<!--<div class="overlayPurple"></div>-->
 	</div>
-
+	<canvas id="c"></canvas>
 
 
 
