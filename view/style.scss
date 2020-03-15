@@ -16,6 +16,7 @@
 
 #name {
   width: 70vw;
+  stroke-linecap: square;
   animation: fillUp 0.5s ease forwards 6s;
 }
 
@@ -74,6 +75,12 @@
 }
 
 #name path:nth-child(11){
+  stroke-dasharray: 410;
+  stroke-dashoffset: 410;
+  animation: line-anim 3s ease forwards 5.5s;
+}
+
+#name path:nth-child(12){
   stroke-dasharray: 410;
   stroke-dashoffset: 410;
   animation: line-anim 3s ease forwards 5.5s;
