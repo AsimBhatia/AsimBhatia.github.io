@@ -17,7 +17,7 @@
 #name {
   width: 70vw;
   stroke-linecap: square;
-  animation: fillUp 0.5s ease forwards 8s;
+  animation: fillUp 1s ease forwards 6.5s;
 }
 
 #name path:nth-child(1){
@@ -104,9 +104,11 @@
 @keyframes fillUp {
   from {
     fill: transparent;
+    stroke: #3adae07e;
   } 
   to {
     fill: #3adbe0;
+    stroke: #3adae0;
   }
 }
 
@@ -1668,11 +1670,20 @@ figure.effect:hover p {
   transform: translate3d(0, 0, 0);
 }
 
+.typeFont {
+  font-size: 1.5vw;
+}
+
+.typeFontBlink{
+  font-size: 1vw;
+}
+
 /* typewriter animation
 .animation-typewriter{
 	animation: typewriter 4s steps(40) 1s 1 normal both,
 	blinkTextCursor 500ms steps(40) infinite normal;
 }
+
 
 @keyframes typewriter{
 	from{
@@ -1761,9 +1772,10 @@ figure.effect:hover p {
   } */
 
 .textstyle {
-  background-color: #222222; /* Changing background color */
+  background-color: #22222261; /* Changing background color */
   /* opacity: 1.00; 
-	filter:alpha(opacity=1); */
+  filter:alpha(opacity=1); */
+  margin-top: 100px;
   color: white;
   font-weight: bold; /* Making font bold */
   border-radius: 20px; /* Making border radius */
@@ -2588,6 +2600,28 @@ figure.effect:hover p {
     width: 80vw;
   }
   
+  .typeFont {
+    font-size: 3vw;
+  }
+  
+  .typeFontBlink{
+    font-size: 2vw;
+  }
+
+  .textstyle {
+    background-color: #22222200; /* Changing background color */
+    /* opacity: 1.00; 
+    filter:alpha(opacity=1); */
+    margin-top: 50px;
+    color: white;
+    font-weight: bold; /* Making font bold */
+    border-radius: 20px; /* Making border radius */
+    width: 80%; /* Making auto-sizable width */
+    height: auto; /* Making auto-sizable height */
+    padding: 5px 30px 5px 30px; /* Making space around letters */
+    // font-size: 18px; /* Changing font size */
+  }
+
 }
 
 @media only screen and (orientation: portrait) and (max-width: 767px) {
